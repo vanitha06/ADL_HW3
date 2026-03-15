@@ -10,39 +10,84 @@ class CoTModel(BaseLLM):
         messages = [
             {
                 "role": "system", 
-                "content": "You are a helpful assistant that performs unit conversions. Be concise and show your reasoning step-by-step."
+                "content": (
+                    "You are a helpful assistant that performs unit conversions. Be concise. "
+                    "Always think step by step to ensure accuracy. "
+                    "Provide your final numerical answer inside <answer> tags, like this: <answer>value</answer>."
+                )
             },
+            # Example 1: Length (Meters to Inches)
             {
                 "role": "user", 
-                "content": "Convert 2 meters to inches."
+                "content": "Convert 2 meters to inches"
             },
             {
                 "role": "assistant", 
-                "content": "1 meter is 100 cm, and 1 inch is 2.54 cm. 2 meters = 200 cm. 200 / 2.54 = 78.74. The answer is 78.74 inches."
+                "content": (
+                    "1. Identify the conversion factor: 1 meter = 39.3701 inches.\n"
+                    "2. Perform the calculation: 2 * 39.3701 = 78.7402.\n"
+                    "3. The answer is <answer>78.74</answer> inches."
+                )
             },
+            # Example 2: Weight (Kg to Lbs)
             {
                 "role": "user", 
-                "content": "Convert 10 feet to meters."
+                "content": "Can you change 5 kilograms to pounds."
             },
             {
                 "role": "assistant", 
-                "content": "1 foot is 0.3048 meters. 10 feet * 0.3048 = 3.048. The answer is 3.048 meters."
+                "content": (
+                    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n"
+                    "2. Perform the calculation: 5 * 2.20462 = 11.0231.\n"
+                    "3. <answer>11.023</answer> pounds"
+                )
             },
+            # Example 3: Volume (Liters to Gallons)
             {
                 "role": "user", 
-                "content": "Convert 5 kilograms to pounds."
+                "content": "How much is 10 liters in gallons."
             },
             {
                 "role": "assistant", 
-                "content": "1 kilogram is approximately 2.20462 pounds. 5 * 2.20462 = 11.0231. The answer is 11.0231 pounds."
-},
-
-                        {
+                "content": (
+                    "1. Identify the conversion factor: 1 liter = 0.264172 gallons.\n"
+                    "2. Perform the calculation: 10 * 0.264172 = 2.64172.\n"
+                    "<answer>2.642</answer> gallons"
+                )
+            },
+            {
+                "role": "user", 
+                "content": "How do we translate 65 miles per hour to meters per second."
+            },
+            {
+                "role": "assistant", 
+                "content": (
+                    "1. Identify conversion factors: 1 mile = 1609.34 meters; 1 hour = 3600 seconds.\n"
+                    "2. Convert distance: 65 miles * 1609.34 = 104607.1 meters.\n"
+                    "3. Convert time: 104607.1 meters / 3600 seconds = 29.0575.\n"
+                    "The answer is <answer>29.0575</answer> m/s."
+                )
+            },
+            {
+                "role": "user", 
+                "content": "Can you represent 120 square feet in square meters"
+            },
+            {
+                "role": "assistant", 
+                "content": (
+                    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n"
+                    "2. Square the factor for area: 1 sq ft = (0.3048 * 0.3048) = 0.092903 sq m.\n"
+                    "3. Perform the calculation: 120 * 0.092903 = 11.14836.\n"
+                    "The answer is <answer>11.14836</answer> square meters."
+                )
+            },
+            # Final User Question
+            {
                 "role": "user", 
                 "content": question
             }
         ]
-
+        print("question:",question)
         prompt = self.tokenizer.apply_chat_template(
             messages, 
             tokenize=False, 
