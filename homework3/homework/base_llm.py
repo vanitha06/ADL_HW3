@@ -43,6 +43,17 @@ class BaseLLM:
         - decode the outputs with self.tokenizer.decode
 
         """
+        # print("prompt:",prompt)
+        # input = self.tokenizer(prompt,return_tensors="pt").to(device)
+        # print("input:",input)
+        # output = self.model.generate( **input,
+        #     num_return_sequences=1,
+        #     max_new_tokens=400,
+        #     do_sample=False)
+        # print("output:",output)    
+        # decoded_output = self.tokenizer.decode(output[0], skip_special_tokens=True) 
+        # print("decoded_output",decoded_output)
+        # return decoded_output   
         return self.batched_generate([prompt])[0]
 
     @overload
@@ -104,8 +115,40 @@ class BaseLLM:
                 )
                 for r in self.batched_generate(prompts[idx : idx + micro_batch_size], num_return_sequences, temperature)
             ]
+        self.tokenizer.padding_side="left"    
+        print("prompt:",prompts)
+        inputs = self.tokenizer(prompts,return_tensors="pt",padding=True).to(self.device)
+        print("input:",input)
+        do_sample = temperature > 0
+        actual_num_seq = num_return_sequences if num_return_sequences is not None else 1
+        outputs = self.model.generate(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            max_new_tokens=50,
+            do_sample=do_sample,
+            temperature=temperature if do_sample else None,
+            num_return_sequences=actual_num_seq,
+            pad_token_id=self.tokenizer.pad_token_id,
+            eos_token_id=self.tokenizer.eos_token_id
+        )
+        print("output:",outputs)
+        prompt_length = inputs["input_ids"].shape[1]
+        print("prompt_length:",prompt_length)
+        generated_tokens = outputs[:, prompt_length:]
+        print("generated tokens:",generated_tokens)
 
-        raise NotImplementedError()
+        # 6. Decode
+        decoded_flat = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
+        print("decoded_flat",decoded_flat)
+        # 7. Reshape if num_return_sequences > 1
+        if num_return_sequences is not None and num_return_sequences > 1:
+            return [
+                decoded_flat[i: i + num_return_sequences]
+                for i in range(0, len(decoded_flat), num_return_sequences)
+            ]
+
+        return decoded_flat  
+        
 
     def answer(self, *questions) -> list[float]:
         """
