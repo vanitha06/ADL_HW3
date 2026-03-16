@@ -16,23 +16,23 @@ class CoTModel(BaseLLM):
                     "Provide your final numerical answer inside <answer> tags, like this: <answer>value</answer>."
                 )
             },
-            # Example 1: Length (Meters to Inches)
+            # Example 1: Length (Kilo Meters to Inches)
             {
                 "role": "user", 
-                "content": "Convert 2 meters to inches"
+                "content": "Convert 2 kilometers to inches"
             },
             {
                 "role": "assistant", 
                 "content": (
-                    "1. Identify the conversion factor: 1 meter = 39.3701 inches.\n"
-                    "2. Perform the calculation: 2 * 39.3701 = 78.7402.\n"
-                    "3. The answer is <answer>78.74</answer> inches."
+                    "1. Identify the conversion factor:1 kilometer = 1000 meters and 1 meter = 39.3701 inches.\n"
+                    "2. Perform the calculation: 2 *1000* 39.3701 = 78740.2\n"
+                    "3. The answer is <answer>78740.2</answer> inches."
                 )
             },
             # Example 2: Weight (Kg to Lbs)
             {
                 "role": "user", 
-                "content": "Can you change 5 kilograms to pounds."
+                "content": "Can you change 5 kilograms to pounds?"
             },
             {
                 "role": "assistant", 
@@ -45,7 +45,7 @@ class CoTModel(BaseLLM):
             # Example 3: Volume (Liters to Gallons)
             {
                 "role": "user", 
-                "content": "How much is 10 liters in gallons."
+                "content": "How much is 10 liters in gallons?"
             },
             {
                 "role": "assistant", 
@@ -65,7 +65,7 @@ class CoTModel(BaseLLM):
                     "1. Identify conversion factors: 1 mile = 1609.34 meters; 1 hour = 3600 seconds.\n"
                     "2. Convert distance: 65 miles * 1609.34 = 104607.1 meters.\n"
                     "3. Convert time: 104607.1 meters / 3600 seconds = 29.0575.\n"
-                    "The answer is <answer>29.0575</answer> m/s."
+                    "<answer>29.0575</answer> m/s."
                 )
             },
             {
@@ -78,9 +78,10 @@ class CoTModel(BaseLLM):
                     "1. Identify conversion factor: 1 foot = 0.3048 meters.\n"
                     "2. Square the factor for area: 1 sq ft = (0.3048 * 0.3048) = 0.092903 sq m.\n"
                     "3. Perform the calculation: 120 * 0.092903 = 11.14836.\n"
-                    "The answer is <answer>11.14836</answer> square meters."
+                    "<answer>11.14836</answer> square meters."
                 )
             },
+            
             # Final User Question
             {
                 "role": "user", 
