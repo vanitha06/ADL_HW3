@@ -2,6 +2,7 @@ from .base_llm import BaseLLM
 from .data import Dataset, benchmark
 
 
+
 def load() -> BaseLLM:
     from pathlib import Path
 
@@ -49,7 +50,14 @@ def format_example(prompt: str, answer: str) -> dict[str, str]:
     """
     Construct a question / answer pair. Consider rounding the answer to make it easier for the LLM.
     """
-    raise NotImplementedError()
+    try:
+        # Round to 3 decimal places for consistency
+        rounded_answer = round(float(answer), 3)
+    except (ValueError, TypeError):
+        rounded_answer = answer
+    
+    return f"{question} <answer>{rounded_answer}</answer>"
+
 
 
 class TokenizedDataset:
@@ -78,7 +86,60 @@ def train_model(
     output_dir: str,
     **kwargs,
 ):
-    raise NotImplementedError()
+    from peft import LoraConfig, get_peft_model, TaskType
+    from transformers import TrainingArguments, Trainer
+    import torch
+
+    llm = kwargs.get("llm")
+    dataset = kwargs.get("dataset")
+    # If llm is None, we use the existing load() logic from base_llm
+    if llm is None:
+        llm = load()
+    # 1. Configure LoRA
+    # r=16 with all-linear usually results in ~15MB adapter size
+    config = LoraConfig(
+        r=16, 
+        lora_alpha=64, # 4x rank as recommended
+        target_modules="all-linear", 
+        bias="none", 
+        task_type="CAUSAL_LM"
+    )
+    
+    # 2. Prepare the model
+
+    llm.model = get_peft_model(llm.model, config)
+    
+    # Fix for gradient checkpointing bug on GPU
+    if torch.cuda.is_available():
+        llm.model.enable_input_require_grads()
+
+    # 3. Define TrainingArguments
+    training_args = TrainingArguments(
+        output_dir=output_dir,
+        logging_dir=output_dir,
+        report_to="tensorboard",
+        num_train_epochs=5,
+        per_device_train_batch_size=32,
+        learning_rate=2e-4,
+        gradient_checkpointing=True,
+        logging_steps=10,
+        save_strategy="epoch",
+        # Ensure we don't save the full model, just the adapter
+        save_total_limit=1
+    )
+
+    # 4. Initialize and Run Trainer
+    trainer = Trainer(
+        model=llm.model,
+        args=training_args,
+        train_dataset=dataset,
+    )
+
+    trainer.train()
+    
+    # 5. Save the LoRA adapter
+    # The requirement is to save to homework/sft_model
+    llm.model.save_pretrained("homework/sft_model")
     test_model(output_dir)
 
 
