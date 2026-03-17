@@ -139,7 +139,7 @@ def train_model(
     # 5. Save the LoRA adapter
     # The requirement is to save to homework/sft_model
     llm.model.save_pretrained("homework/sft_model")
-    test_model(output_dir)
+    test_model("homework/sft_model")
 
 
 def test_model(ckpt_path: str):
