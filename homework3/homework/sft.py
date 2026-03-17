@@ -87,14 +87,13 @@ def train_model(
     **kwargs,
 ):
     from peft import LoraConfig, get_peft_model, TaskType
-    from transformers import TrainingArguments, Trainer
+    from transformers import TrainingArguments, Trainer,DataCollatorWithPadding
     import torch
 
-    llm = kwargs.get("llm")
-    dataset = kwargs.get("dataset")
+  
     # If llm is None, we use the existing load() logic from base_llm
-    if llm is None:
-        llm = load()
+    
+    llm = BaseLLM()
     # 1. Configure LoRA
     # r=16 with all-linear usually results in ~15MB adapter size
     config = LoraConfig(
@@ -104,15 +103,13 @@ def train_model(
         bias="none", 
         task_type="CAUSAL_LM"
     )
-    
-    # 2. Prepare the model
-
-    llm.model = get_peft_model(llm.model, config)
+    llm.model = get_peft_model(llm.model,config)
     
     # Fix for gradient checkpointing bug on GPU
     if torch.cuda.is_available():
         llm.model.enable_input_require_grads()
 
+    train_raw = Dataset("train")
     # 3. Define TrainingArguments
     training_args = TrainingArguments(
         output_dir=output_dir,
@@ -127,12 +124,14 @@ def train_model(
         # Ensure we don't save the full model, just the adapter
         save_total_limit=1
     )
-
+    # data_collator = DataCollatorWithPadding(tokenizer=llm.tokenizer)
+    train_dataset = [tokenize(llm.tokenizer, item[0], item[1]) for item in train_raw]
     # 4. Initialize and Run Trainer
     trainer = Trainer(
         model=llm.model,
         args=training_args,
-        train_dataset=dataset,
+        train_dataset=train_dataset,
+        # data_collator=data_collator,
     )
 
     trainer.train()
