@@ -39,7 +39,7 @@ def generate_dataset(output_json: str, oversample: int = 10, temperature: float 
     rft_dataset = []
     
     prompts = [model.format_prompt(q) for q in questions]
-    batch_results = model.batched_generate(prompts,20,temperature)
+    batch_results = model.batched_generate(prompts,10,0.8)
     # predicted_answers [model.parse_answer(g) for g in batch_results]
 
         # batch_results is a list of lists: [[Q1_rollouts], [Q2_rollouts], ...]
@@ -52,7 +52,8 @@ def generate_dataset(output_json: str, oversample: int = 10, temperature: float 
             if abs(model.parse_answer(completion) - float(gold)) < 1e-5:
                 rft_dataset.append([question, gold, completion])
                 break
-
+            else:
+              print("----question:",question,"correct answer:",gold,"incorrect answer:",model.parse_answer(completion),"reasoning",completion,"----")
     # 5. Save results to the specified path
     os.makedirs(os.path.dirname(output_json), exist_ok=True)
     with open(output_json, "w") as f:
