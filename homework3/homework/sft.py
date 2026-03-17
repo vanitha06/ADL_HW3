@@ -125,15 +125,13 @@ def train_model(
         # Ensure we don't save the full model, just the adapter
         save_total_limit=1
     )
-    # data_collator = DataCollatorWithPadding(tokenizer=llm.tokenizer)
-    # train_dataset = [tokenize(llm.tokenizer, item[0], item[1]) for item in train_raw]
+    
     train_dataset = TokenizedDataset(llm.tokenizer,train_raw,format_example)
     # 4. Initialize and Run Trainer
     trainer = Trainer(
         model=llm.model,
         args=training_args,
         train_dataset=train_dataset,
-        # data_collator=data_collator,
     )
 
     trainer.train()
