@@ -56,7 +56,8 @@ def format_example(prompt: str, answer: str) -> dict[str, str]:
     except (ValueError, TypeError):
         rounded_answer = answer
     
-    return f"{question} <answer>{rounded_answer}</answer>"
+    return {"question":prompt,"answer":f"<answer>{rounded_answer}</answer>"}
+    
 
 
 
@@ -125,7 +126,8 @@ def train_model(
         save_total_limit=1
     )
     # data_collator = DataCollatorWithPadding(tokenizer=llm.tokenizer)
-    train_dataset = [tokenize(llm.tokenizer, item[0], item[1]) for item in train_raw]
+    # train_dataset = [tokenize(llm.tokenizer, item[0], item[1]) for item in train_raw]
+    train_dataset = TokenizedDataset(llm.tokenizer,train_raw,format_example)
     # 4. Initialize and Run Trainer
     trainer = Trainer(
         model=llm.model,
