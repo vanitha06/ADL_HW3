@@ -39,7 +39,7 @@ def generate_dataset(output_json: str, oversample: int = 10, temperature: float 
     rft_dataset = []
     
     prompts = [model.format_prompt(q) for q in questions]
-    batch_results = model.batched_generate(prompts,4,temperature)
+    batch_results = model.batched_generate(prompts,10,temperature)
     # predicted_answers [model.parse_answer(g) for g in batch_results]
 
         # batch_results is a list of lists: [[Q1_rollouts], [Q2_rollouts], ...]

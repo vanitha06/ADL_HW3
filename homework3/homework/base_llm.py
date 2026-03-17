@@ -20,6 +20,7 @@ class BaseLLM:
         better if you provide a chat template. self.tokenizer.apply_chat_template can help here
         You don't need to change this function for now.
         """
+        print("base llm prompt is called",question)
         return question
 
     def parse_answer(self, answer: str) -> float:
@@ -106,7 +107,7 @@ class BaseLLM:
         # Preventing OOM
         # Depending on your GPU batched generation will use a lot of memory.
         # If you run out of memory, try to reduce the micro_batch_size.
-        micro_batch_size = 32
+        micro_batch_size = 16
         if len(prompts) > micro_batch_size:
             return [
                 r
@@ -118,7 +119,7 @@ class BaseLLM:
         self.tokenizer.padding_side="left"    
         print("prompt:",prompts)
         inputs = self.tokenizer(prompts,return_tensors="pt",padding=True).to(self.device)
-        print("input:",input)
+        # print("input:",input)
         do_sample = temperature > 0
         actual_num_seq = num_return_sequences if num_return_sequences is not None else 1
         outputs = self.model.generate(
@@ -131,11 +132,11 @@ class BaseLLM:
             pad_token_id=self.tokenizer.pad_token_id,
             eos_token_id=self.tokenizer.eos_token_id
         )
-        print("output:",outputs)
+        # print("output:",outputs)
         prompt_length = inputs["input_ids"].shape[1]
-        print("prompt_length:",prompt_length)
+        # print("prompt_length:",prompt_length)
         generated_tokens = outputs[:, prompt_length:]
-        print("generated tokens:",generated_tokens)
+        # print("generated tokens:",generated_tokens)
 
         # 6. Decode
         decoded_flat = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
@@ -167,10 +168,10 @@ def test_model():
     testset = ["The cat went up", "The dog went down"]
     model = BaseLLM()
     for t in testset:
-        print("testing generate function")
-        print("input", t)
+        # print("testing generate function")
+        # print("input", t)
         answer = model.generate(t)
-        print("output", answer)
+        # print("output", answer)
     answers = model.batched_generate(testset)
     print(answers)
 

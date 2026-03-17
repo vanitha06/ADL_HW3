@@ -7,52 +7,57 @@
   [
     "What is the conversion of 2 hour to seconds?",
     7200.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
   ],
   [
     "How many gram are there per 6 kg?",
     6000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 6 * 1000 = 6000 grams.\n<answer>6000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Convert kilograms to grams: 6 * 1000 = 6000 grams.\n3. The answer is <answer>6000</answer> grams."
   ],
   [
     "Convert the measurement of 6 l into cm^3.",
     5999.999999999999,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (cm^3).\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> cm^3."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> cubic centimeters."
   ],
   [
     "Can you change 9 metric ton to its equivalent in kg?",
     9000.0,
-    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000 kilograms.\n<answer>9000</answer> kilograms."
+    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000 kilograms.\n<answer>9000</answer> kilograms."
   ],
   [
     "What is the conversion of 3 quart to fluid ounce?",
     96.0,
-    "1. Identify conversion factor: 1 quart = 32 fluid ounces.\n2. Perform the calculation: 3 * 32 = 96.\n<answer>96</answer> fluid ounces."
+    "1. Identify the conversion factor: 1 quart = 32 fluid ounces.\n2. Perform the calculation: 3 * 32 = 96.\n<answer>96</answer> fluid ounces."
   ],
   [
     "Convert the measurement of 2 B into bit.",
     16.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 = 16.\n<answer>16</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 bits = 16 bits.\n<answer>16</answer> bits."
   ],
   [
     "How many in are there per 8 ft?",
     96.0,
-    "1. Identify the conversion factor: 1 foot = 12 inches.\n2. Multiply the factor by the number of feet: 8 * 12 = 96.\n3. The answer is <answer>96</answer> inches."
+    "1. Identify conversion factor: 1 foot = 12 inches.\n2. Perform the calculation: 8 * 12 = 96.\n<answer>96</answer> inches."
   ],
   [
     "Express 8 liter as a quantity of milliliter.",
     8000.000000000001,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 8 * 1000 = 8000 milliliters.\n<answer>8000</answer> milliliters."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> milliliters."
   ],
   [
     "Could you provide the value of 2 pound in ounce?",
     32.0,
-    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32.\n<answer>32</answer> ounces."
+    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32.\n3. <answer>32</answer> ounces."
+  ],
+  [
+    "How many mm is 4 yd?",
+    3657.6000000000004,
+    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Convert distance: 4 yards * 91.44 cm = 365.76 cm.\n3. Convert centimeters to millimeters: 365.76 cm * 10 mm = 3657.6 mm.\n<answer>3657.6</answer> mm."
   ],
   [
     "How many m/s are there per 10 ft/s?",
     3.048,
-    "1. Identify conversion factor: 1 ft = 0.3048 meters.\n2. Convert 10 ft/s: 10 * 0.3048 = 3.048 meters/second.\n3. <answer>3.048</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 10 ft * 0.3048 = 3.048.\n3. Convert ft/s to m/s: 3.048 m/s.\n<answer>3.048</answer> m/s."
   ],
   [
     "How do we translate 3 litre into cc?",
@@ -62,17 +67,17 @@
   [
     "How much is 4 kmh when converted to m/s?",
     1.1111111111111112,
-    "1. Identify conversion factor: 1 km = 1000 meters; 1 hour = 3600 seconds.\n2. Convert distance: 4 km * 1000 = 4000 meters.\n3. Convert time: 4000 meters / 3600 seconds = 1.11111.\n<answer>1.11111</answer> m/s."
+    "1. Identify the conversion factor: 1 km = 1000 meters; 1 hour = 3600 seconds.\n2. Convert distance: 4 km * 1000 = 4000 meters.\n3. Convert time: 4000 meters / 3600 seconds = 1.11111.\n<answer>1.11111</answer> m/s."
   ],
   [
     "How many cm are there per 1 ft?",
     30.48,
-    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 ft * 30.48 = 30.48 cm.\n<answer>30.48</answer> centimeters."
+    "1. Identify the conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
   ],
   [
     "What does 3 kg equal in g terms?",
     3000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 3 * 1000 = 3000 grams.\n<answer>3000</answer> grams."
   ],
   [
     "How do we translate 10 mi into yd?",
@@ -82,17 +87,17 @@
   [
     "What is the measurement of 6 decades when converted into year?",
     60.0,
-    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 6 decades * 10 years = 60 years.\n3. The answer is <answer>60</answer> years."
+    "1. Identify conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 6 decades * 10 years = 60 years.\n<answer>60</answer> years."
   ],
   [
     "What does 10 years equal in months terms?",
     120.0,
-    "1. Identify the conversion factor: 1 year = 12 months.\n2. Perform the calculation: 10 * 12 = 120.\n<answer>120</answer> months."
+    "1. Identify the conversion factor: 1 year = 12 months.\n2. Perform the calculation: 10 * 12 = 120 months.\n<answer>120</answer> months."
   ],
   [
     "Please convert 2 pound into ounce.",
     32.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32.\n<answer>32</answer> ounces."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32 ounces.\n3. The answer is <answer>32</answer> ounces."
   ],
   [
     "Convert the measurement of 6 litre into millilitre.",
@@ -102,57 +107,82 @@
   [
     "What is the equivalent of 5 liter in cm**3?",
     4999.999999999999,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 5 liters * 1000 cm^3/liter = 5000 cm^3.\n<answer>5000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cm^3.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> cm^3."
   ],
   [
     "What does 2 liter equal in millilitre terms?",
     2000.0000000000002,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 2 * 1000 = 2000 milliliters.\n<answer>2000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> milliliters."
   ],
   [
     "How does 5 ml measure up in terms of cm**3?",
     4.999999999999999,
-    "1. Identify the conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Perform the calculation: 5 * 1 = 5.\n<answer>5</answer> cubic centimeters."
+    "1. Identify conversion factor: 1 milliliter = 1 cm^3.\n2. Perform the calculation: 5 ml * 1 cm^3 = 5 cm^3.\n<answer>5</answer> cm^3."
   ],
   [
     "Could you give the conversion from mi to ft for 7 units?",
     36960.0,
-    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 7 * 5280 = 36960.\n<answer>36960</answer> feet."
+    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Multiply the number of miles by the conversion factor: 7 * 5280 = 36960.\n<answer>36960</answer> feet."
   ],
   [
     "Can you provide the conversion value from B to bit for 4 units?",
     32.0,
-    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 * 8 = 32 bits.\n<answer>32</answer> bit."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 * 8 = 32.\n<answer>32</answer> bits."
   ],
   [
     "Please convert 9 L into cc.",
     8999.999999999998,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> cubic centimeters."
   ],
   [
     "Can you change 2 kmh to its equivalent in mi/h?",
     1.2427423844746681,
-    "1. Identify conversion factor: 1 kilometer per hour = 0.621371 miles per hour.\n2. Perform the calculation: 2 * 0.621371 = 1.242742.\n<answer>1.242742</answer> miles per hour."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 2 * 0.621371 = 1.242742.\n<answer>1.242742</answer> miles per hour."
+  ],
+  [
+    "Could you provide the value of 4 KB in byte?",
+    4000.0,
+    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 4 * 1000 = 4000.\n3. The answer is <answer>4000</answer> bytes."
+  ],
+  [
+    "How many M make up 10 G?",
+    10000.0,
+    "1. Identify the conversion factor: 1 giga- = 1000 million.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> megabytes."
   ],
   [
     "How many mm**3 are there per 10 cc?",
     10000.000000000002,
-    "1. Identify conversion factors: 1 cc = 1000 mm^3; 1000 cubic centimeters = 1 liter.\n2. Convert distance: 10 cc * 1000 = 10000 mm^3.\n3. The answer is <answer>10000</answer> mm^3."
+    "1. Identify conversion factor: 1 cc = 1 mL.\n2. Convert volume: 10 cc * 1 mL = 10 mL.\n3. Convert volume to cubic millimeters: 10 mL * 1000 mm^3/mL = 10000 mm^3.\n<answer>10000</answer> mm^3."
   ],
   [
     "Can you provide the conversion value from mL to cc for 7 units?",
     6.999999999999998,
-    "1. Identify conversion factor: 1 milliliter (mL) = 1 cubic centimeter (cc).\n2. Perform the calculation: 7 * 1 = 7.\n<answer>7</answer> cc."
+    "1. Identify conversion factor: 1 mL = 1 cc.\n2. Perform the calculation: 7 * 1 = 7.\n<answer>7</answer> cc."
   ],
   [
     "Please convert 1 ft into cm.",
     30.48,
-    "1. Identify the conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
+    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
+  ],
+  [
+    "Can you change 6 week to its equivalent in h?",
+    1008.0,
+    "1. Identify the conversion factor: 1 week = 7 days.\n2. Convert days: 6 * 7 = 42 days.\n3. Convert days to hours: 42 * 24 = 1008 hours.\n<answer>1008</answer> hours."
   ],
   [
     "How much is 9 decades when converted to month?",
     1080.0,
-    "1. Identify conversion factor: 1 decade = 10 years.\n2. Identify conversion factor: 1 year = 12 months.\n3. Perform the calculation: 9 * 10 * 12 = 1080.\n<answer>1080</answer> months."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Convert years to months: 9 decades * 10 years * 12 months/year = 1080 months.\n3. The answer is <answer>1080</answer> months."
+  ],
+  [
+    "Please convert 8 km/h into mi/h.",
+    4.9709695378986725,
+    "1. Identify conversion factor: 1 km = 0.621371 miles.\n2. Convert speed: 8 km * 0.621371 = 4.970968 miles/hour.\n<answer>4.970968</answer> miles/hour"
+  ],
+  [
+    "Convert 5 ft to yd?",
+    1.6666666666666665,
+    "1. Identify the conversion factor: 1 foot = 0.333333 yards.\n2. Perform the calculation: 5 * 0.333333 = 1.66667.\n<answer>1.66667</answer> yards."
   ],
   [
     "What is the equivalent of 2 bit in byte?",
@@ -172,17 +202,27 @@
   [
     "What is the equivalent of 8 km in m?",
     8000.0,
-    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> meters."
+    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 8 * 1000 = 8000 meters.\n<answer>8000</answer> meters."
   ],
   [
     "What is the conversion of 10 kmh to mi/h?",
     6.21371192237334,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> miles/hour."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles and 1 hour = 3600 seconds.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n3. <answer>6.21371</answer> miles per hour."
+  ],
+  [
+    "How do we express 7 cm in terms of in?",
+    2.755905511811023,
+    "1. Identify the conversion factor: 1 cm = 0.393701 inches.\n2. Perform the calculation: 7 * 0.393701 = 2.7559.\n<answer>2.7559</answer> inches."
+  ],
+  [
+    "How many hour is 9 week?",
+    1512.0,
+    "1. Identify the conversion factor: 1 week = 7 days and 1 day = 24 hours.\n2. Convert days: 9 weeks * 7 days/week = 63 days.\n3. Convert hours: 63 days * 24 hours/day = 1512 hours.\n<answer>1512</answer> hours."
   ],
   [
     "How many cm is 8 in?",
     20.32,
-    "1. Identify conversion factor: 1 inch = 2.54 cm.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> cm."
+    "1. Identify conversion factor: 1 inch = 2.54 cm.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> centimeters."
   ],
   [
     "Convert 10 in to cm?",
@@ -192,37 +232,42 @@
   [
     "What is the equivalent of 9 milliliter in mm^3?",
     8999.999999999998,
-    "1. Identify conversion factor: 1 milliliter = 1000 cubic millimeters.\n2. Perform the calculation: 9 ml * 1000 = 9000.\n<answer>9000</answer> mm3."
+    "1. Identify conversion factor: 1 milliliter = 10^3 mm^3.\n2. Perform the calculation: 9 * 10^3 = 9000.\n<answer>9000</answer> mm^3."
   ],
   [
     "How do we translate 6 gallon into pint?",
     48.0,
-    "1. Identify conversion factor: 1 gallon = 8 pints.\n2. Perform the calculation: 6 * 8 = 48.\n3. The answer is <answer>48</answer> pints."
+    "1. Identify the conversion factor: 1 gallon = 8 pints.\n2. Perform the calculation: 6 gallons * 8 pints = 48 pints.\n<answer>48</answer> pints."
   ],
   [
     "What is 9 bit in byte?",
     1.125,
-    "1. Identify the conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 9 * 0.125 = 1.125.\n<answer>1.125</answer> bytes."
+    "1. Identify conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 9 * 0.125 = 1.125.\n<answer>1.125</answer> bytes."
   ],
   [
     "Convert the measurement of 10 ft into m.",
     3.048,
-    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 10 * 0.3048 = 3.048.\n<answer>3.048</answer> meters."
+    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 10 * 0.3048 = 3.048 meters.\n<answer>3.048</answer> meters."
   ],
   [
     "How much is 2 kmh when converted to mph?",
     1.2427423844746681,
-    "1. Identify the conversion factor: 1 km = 0.621371 miles.\n2. Convert the speed: 2 * 0.621371 = 1.242742.\n3. The answer is <answer>1.242742</answer> miles per hour."
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert speed: 2 kmh * 0.621371 = 1.242742.\n3. The answer is <answer>1.242742</answer> miles per hour."
   ],
   [
-    "Express 3 week as a quantity of hours.",
-    504.0,
-    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Convert days to hours: 3 * 7 * 24 = 504 hours.\n<answer>504</answer> hours."
+    "Could you give the conversion from bit to B for 6 units?",
+    0.75,
+    "1. Identify conversion factor: 1 bit = 0.125 Bits.\n2. Perform the calculation: 6 * 0.125 = 0.75.\n<answer>0.75</answer> B."
+  ],
+  [
+    "Can you change 9 kmh to its equivalent in mi/h?",
+    5.592340730136007,
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert distance: 9 km * 0.621371 = 5.592339 miles.\n3. <answer>5.592339</answer> miles/hour."
   ],
   [
     "How many g are there per 3 kg?",
     3000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 3 * 1000 = 3000.\n3. The answer is <answer>3000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 3 kg * 1000 g/kg = 3000 g.\n<answer>3000</answer> grams."
   ],
   [
     "How many MB are there per 9 GB?",
@@ -232,22 +277,22 @@
   [
     "What is 5 century in year?",
     500.0,
-    "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 5 * 100 = 500.\n<answer>500</answer> years."
+    "1. Identify conversion factor: 1 century = 100 years.\n2. Perform the calculation: 5 * 100 = 500.\n<answer>500</answer> years."
   ],
   [
     "Can you provide the conversion value from l to quart for 4 units?",
     4.226752837730373,
-    "1. Identify the conversion factor: 1 liter = 1.05669 US quarts.\n2. Perform the calculation: 4 * 1.05669 = 4.22676.\n<answer>4.22676</answer> quarts."
+    "1. Identify the conversion factor: 1 liter = 1.056688 quart (US liquid).\n2. Perform the calculation: 4 * 1.056688 = 4.226752.\n<answer>4.226752</answer> quarts."
   ],
   [
     "Can you provide the conversion value from L to cc for 5 units?",
     4999.999999999999,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (cc).\n2. Perform the calculation: 5 * 1000 = 5000 cc.\n<answer>5000</answer> cc."
+    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (cc).\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> cc."
   ],
   [
     "What does 2 yd equal in m terms?",
     1.8288000000000002,
-    "1. Identify conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 2 * 0.9144 = 1.8288 meters.\n<answer>1.8288</answer> meters."
+    "1. Identify conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 2 * 0.9144 = 1.8288.\n<answer>1.8288</answer> meters."
   ],
   [
     "What is the equivalent of 10 century in year?",
@@ -257,17 +302,17 @@
   [
     "Convert 8 centuries to months?",
     9600.0,
-    "1. Identify the conversion factor: 1 century = 100 years.\n2. Identify conversion factor: 1 year = 12 months.\n3. Convert years: 8 * 100 * 12 = 9600.\n<answer>9600</answer> months."
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Identify the conversion factor: 1 year = 12 months.\n3. Perform the calculation: 8 * 100 * 12 = 9600.\n<answer>9600</answer> months."
   ],
   [
-    "Can you provide the conversion value from KB to bit for 10 units?",
-    80000.0,
-    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes (B).\n2. Convert bytes to bits: 1 B = 8 bits.\n3. Perform the calculation: 10 * 1000 * 8 = 80000.\n<answer>80000</answer> bits."
+    "What is the equivalent of 1 GB in MB?",
+    1000.0,
+    "1. Identify conversion factor: 1 gigabyte (GB) = 1000 megabytes (MB).\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> MB."
   ],
   [
     "Can you change 9 ton to its equivalent in kg?",
     9000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000 kilograms.\n3. <answer>9000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000 kilograms.\n<answer>9000</answer> kilograms."
   ],
   [
     "Convert 7 year to month?",
@@ -277,27 +322,22 @@
   [
     "Tell me how many bit are there in 7 B.",
     56.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 7 * 8 = 56.\n<answer>56</answer> bits."
+    "1. Identify the conversion factor: 1 byte (B) = 8 bits.\n2. Perform the calculation: 7 * 8 = 56.\n<answer>56</answer> bits."
   ],
   [
     "Convert the measurement of 6 m**3 into litre.",
     6000.0,
-    "1. Identify the conversion factor: 1 m**3 = 1000 liters.\n2. Perform the calculation: 6 * 1000 = 6000 liters.\n3. <answer>6000</answer> liters."
+    "1. Identify the conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 6 * 1000 = 6000 liters.\n<answer>6000</answer> liters"
   ],
   [
     "Could you give the conversion from day to hour for 5 units?",
     120.0,
-    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 5 * 24 = 120.\n<answer>120</answer> hours."
-  ],
-  [
-    "What is the measurement of 8 MB when converted into kB?",
-    8000.0,
-    "1. Identify conversion factor: 1 MB = 1000 kB.\n2. Perform the calculation: 8 * 1000 = 8000 kB.\n<answer>8000</answer> kB."
+    "1. Identify conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 5 * 24 = 120.\n<answer>120</answer> hours."
   ],
   [
     "How many cm is 4 in?",
     10.16,
-    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 4 * 2.54 = 10.16.\n<answer>10.16</answer> centimeters."
+    "1. Identify conversion factor: 1 inch = 2.54 cm.\n2. Perform the calculation: 4 * 2.54 = 10.16.\n<answer>10.16</answer> cm."
   ],
   [
     "How many g are there per 7 kg?",
@@ -307,42 +347,47 @@
   [
     "What is the equivalent of 9 pint in ounce?",
     144.0,
-    "1. Identify conversion factor: 1 pint = 16 ounces.\n2. Perform the calculation: 9 * 16 = 144.\n<answer>144</answer> ounces."
+    "1. Identify conversion factor: 1 pint = 16 ounces.\n2. Perform the calculation: 9 * 16 = 144 ounces.\n<answer>144</answer> ounces."
+  ],
+  [
+    "Can you provide the conversion value from week to hours for 7 units?",
+    1176.0,
+    "1. Identify conversion factor: 1 week = 7 days.\n2. Convert hours in a day: 24 hours/day * 7 days = 168 hours.\n3. Perform the calculation: 7 * 168 = 1176 hours.\n<answer>1176</answer> hours."
   ],
   [
     "Can you provide the conversion value from millilitre to cm^3 for 7 units?",
     6.999999999999998,
-    "1. Identify conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Perform the calculation: 7 * 1 = 7.\n<answer>7</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 millilitre = 1 cm^3.\n2. Perform the calculation: 7 * 1 = 7.\n<answer>7</answer> cm^3."
   ],
   [
-    "What is the conversion of 1 cm^3 to mm**3?",
-    1000.0000000000001,
-    "1. Identify the conversion factor: 1 cm = 10 mm.\n2. Cubic the factor: 1 cm^3 = (10 mm)^3 = 1000 mm^3.\n3. The answer is <answer>1000</answer> mm^3."
+    "How does 10 B measure up in terms of bit?",
+    80.0,
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 * 8 = 80.\n<answer>80</answer> bits."
   ],
   [
     "Can you change 10 m to its equivalent in mm?",
     10000.0,
-    "1. Identify conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> mm."
+    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> millimeters."
   ],
   [
     "What is the measurement of 4 metric ton when converted into kg?",
     4000.0,
-    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 4 * 1000 = 4000 kilograms.\n<answer>4000</answer> kg."
+    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 4 * 1000 = 4000 kg.\n3. <answer>4000</answer> kg."
   ],
   [
     "What is the conversion from ft/s to in/s for 4 units?",
     48.0,
-    "1. Identify conversion factor: 1 foot = 12 inches.\n2. To convert ft/s to in/s, multiply by the conversion factor: 4 * 12 = 48.\n<answer>48</answer> in/s."
+    "1. Identify conversion factor: 1 foot = 12 inches.\n2. Convert speed: 4 ft/s * 12 in/ft = 48 inches/second.\n3. The answer is <answer>48</answer> inches/second."
   ],
   [
     "What is the measurement of 5 quart when converted into l?",
     4.731764730000002,
-    "1. Identify the conversion factor: 1 quart = 0.946353 liters.\n2. Perform the calculation: 5 * 0.946353 = 4.731765.\n<answer>4.731765</answer> liters."
+    "1. Identify conversion factor: 1 quart = 0.946353 liters.\n2. Perform the calculation: 5 * 0.946353 = 4.731765.\n<answer>4.731765</answer> liters."
   ],
   [
     "Express 8 tonne as a quantity of kg.",
     8000.0,
-    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 8 * 1000 = 8000 kilograms.\n<answer>8000</answer> kilograms."
+    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 8 tonne * 1000 = 8000 kilograms.\n<answer>8000</answer> kilograms."
   ],
   [
     "Could you give the conversion from hour to s for 3 units?",
@@ -350,14 +395,19 @@
     "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 3 * 3600 = 10800.\n<answer>10800</answer> seconds."
   ],
   [
+    "What is the conversion of 8 yd to cm?",
+    731.5200000000001,
+    "1. Identify the conversion factor: 1 yard = 3 feet, and 1 foot = 30.48 cm.\n2. Perform the calculation: 8 * (3 * 30.48) = 8 * 91.44 = 731.52.\n3. <answer>731.52</answer> centimeters."
+  ],
+  [
     "What does 10 mL equal in cm**3 terms?",
     9.999999999999998,
-    "1. Identify the conversion factor: 1 mL = 1 cm^3.\n2. Perform the calculation: 10 * 1 = 10 cm^3.\n<answer>10</answer> cm^3."
+    "1. Identify conversion factor: 1 mL = 1 cm**3.\n2. Perform the calculation: 10 * 1 = 10 cm**3.\n<answer>10</answer> cm**3."
   ],
   [
     "What is the equivalent of 3 km in meter?",
     3000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 3 * 1000 = 3000 meters.\n<answer>3000</answer> meters."
+    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> meters."
   ],
   [
     "Can you provide the conversion value from liter to millilitre for 6 units?",
@@ -367,12 +417,27 @@
   [
     "How many km/h are there per 1 mi/h?",
     1.6093439999999999,
-    "1. Identify conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert time: 1 hour * 1.60934 kilometers / hour = 1.60934 kilometers.\n3. Perform the calculation: 1.60934 km / 1 hour = 1.60934 km/h.\n<answer>1.60934</answer> km/h."
+    "1. Identify conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert 1 mile to kilometers: 1 mile * 1.60934 = 1.60934 kilometers.\n3. Convert time: 1 hour * 1 hour = 1 hour.\n4. Perform the calculation: 1.60934 kilometers / 1 hour = 1.60934 km/h.\n<answer>1.60934</answer> km/h."
   ],
   [
-    "What is the conversion of 10 bit to byte?",
-    1.25,
-    "1. Identify the conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 10 * 0.125 = 1.25.\n<answer>1.25</answer> bytes."
+    "Express 8 GB as a quantity of MB.",
+    8000.0,
+    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> MB."
+  ],
+  [
+    "What is the conversion of 4 milliliter to mm^3?",
+    3999.9999999999995,
+    "1. Identify conversion factors: 1 milliliter = 1000 cubic millimeters; 1 cubic millimeter = 1.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> mm<sup>3</sup>."
+  ],
+  [
+    "How does 5 days measure up in terms of min?",
+    7200.0,
+    "1. Identify the conversion factor: 1 day = 1440 minutes.\n2. Perform the calculation: 5 * 1440 = 7200.\n3. The answer is <answer>7200</answer> minutes."
+  ],
+  [
+    "How many m/s make up 7 mph?",
+    3.12928,
+    "1. Identify conversion factor: 1 mph = 0.44704 m/s.\n2. Perform the calculation: 7 * 0.44704 = 3.12928.\n<answer>3.12928</answer> m/s."
   ],
   [
     "What does 7 ft equal in meter terms?",
@@ -382,12 +447,17 @@
   [
     "Can you change 8 m/s to its equivalent in km/h?",
     28.799999999999997,
-    "1. Identify the conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 8 * 3.6 = 28.8.\n3. The answer is <answer>28.8</answer> km/h."
+    "1. Identify the conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 8 * 3.6 = 28.8.\n<answer>28.8</answer> km/h."
+  ],
+  [
+    "How much is 9 decade when converted to month?",
+    1080.0,
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Convert years: 9 * 10 = 90 years.\n3. Convert months: 90 years * 12 months/year = 1080 months.\n<answer>1080</answer> months."
   ],
   [
     "Convert the measurement of 3 m into mm.",
     3000.0,
-    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 3 * 1000 = 3000.\n3. The answer is <answer>3000</answer> millimeters."
+    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> millimeters."
   ],
   [
     "What is 1 B in bit?",
@@ -395,24 +465,34 @@
     "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 1 * 8 = 8.\n<answer>8</answer> bits."
   ],
   [
+    "How many gallon make up 4 quart?",
+    1.0,
+    "1. Identify conversion factor: 1 gallon = 4 quarts.\n2. Perform the calculation: 4 gallons / 4 = 1 gallon.\n<answer>1</answer> gallon."
+  ],
+  [
     "How does 5 kg measure up in terms of gram?",
     5000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000 grams.\n<answer>5000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 kg * 1000 = 5000 grams.\n<answer>5000</answer> grams."
   ],
   [
     "Could you give the conversion from ton to kg for 5 units?",
     5000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000 kilograms.\n<answer>5000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000 kilograms.\n3. <answer>5000</answer> kilograms."
   ],
   [
     "Tell me how many kmh are there in 5 m/s.",
     18.0,
-    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 5 * 3.6 = 18.\n<answer>18</answer> km/h."
+    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 5 * 3.6 = 18 km/h.\n<answer>18</answer> km/h."
   ],
   [
     "Convert 3 metric ton to kg?",
     3000.0,
-    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kg."
+    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kilograms."
+  ],
+  [
+    "Please convert 2 bit into byte.",
+    0.25,
+    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 2 * 0.125 = 0.25.\n<answer>0.25</answer> bytes."
   ],
   [
     "Please convert 6 byte into bit.",
@@ -420,44 +500,39 @@
     "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 6 * 8 = 48.\n<answer>48</answer> bits."
   ],
   [
+    "How do we translate 8 M into kB?",
+    8000.0,
+    "1. Identify conversion factor: 1 Megabyte (MB) = 1000 kilobytes (KB).\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> kilobytes."
+  ],
+  [
     "How do we translate 7 m/s into kmh?",
     25.199999999999996,
-    "1. Identify conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation: 7 * 3.6 = 25.2 kilometers/hour.\n<answer>25.2</answer> kilometers/hour."
+    "1. Identify conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation: 7 m/s * 3.6 = 25.2 km/h.\n<answer>25.2</answer> kilometers/hour."
   ],
   [
     "Could you give the conversion from pound to ounce for 4 units?",
     64.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 4 * 16 = 64.\n<answer>64</answer> ounces."
-  ],
-  [
-    "Please convert 5 G into M.",
-    5000.0,
-    "1. Identify the conversion factor: 1 giga (G) = 1000 mega (M).\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> M."
-  ],
-  [
-    "What is 9 mph in km/h?",
-    14.484096,
-    "1. Identify the conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert speed: 9 * 1.60934 = 14.4841 kilometers per hour.\n<answer>14.4841</answer> kilometers per hour."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 4 * 16 = 64.\n<answer>64</answer> ounces."
   ],
   [
     "How many kg is 9 tonne?",
     9000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> kg."
+    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> kilograms."
   ],
   [
     "How many mi/h is 5 kmh?",
     3.10685596118667,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert distance: 5 km * 0.621371 = 3.106855 miles.\n3. Convert time: 3.106855 miles / 1 hour = 3.106855 miles per hour.\n<answer>3.106855</answer> mph."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 5 * 0.621371 = 3.106855.\n<answer>3.106855</answer> miles per hour."
   ],
   [
     "How many ounce are there per 2 pound?",
     32.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32 ounces.\n<answer>32</answer> ounces."
+    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 2 * 16 = 32.\n<answer>32</answer> ounces."
   ],
   [
     "Convert 2 tonne to kg?",
     2000.0,
-    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 2 * 1000 = 2000.\n3. The answer is <answer>2000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> kg."
   ],
   [
     "Convert 6 pound to ounce?",
@@ -472,7 +547,7 @@
   [
     "Express 3 pound as a quantity of ounce.",
     48.0,
-    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 3 * 16 = 48 ounces.\n<answer>48</answer> ounces."
+    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 3 * 16 = 48.\n<answer>48</answer> ounces."
   ],
   [
     "Could you give the conversion from tonne to kg for 10 units?",
@@ -480,29 +555,24 @@
     "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> kilograms."
   ],
   [
-    "What does 9 kB equal in byte terms?",
-    9000.0,
-    "1. Identify conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000 bytes.\n<answer>9000</answer> bytes."
-  ],
-  [
     "What is the equivalent of 3 hours in minute?",
     180.0,
-    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 3 * 60 = 180.\n<answer>180</answer> minutes"
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 3 * 60 = 180.\n<answer>180</answer> minutes."
   ],
   [
     "Could you convert 8 bit to its corresponding value in byte?",
     1.0,
-    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 8 * 0.125 = 1.\n3. The answer is <answer>1</answer> byte."
+    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 8 * 0.125 = 1.\n\n<answer>1</answer> byte."
   ],
   [
     "Could you convert 1 pint to its corresponding value in mL?",
     473.1764730000002,
-    "1. Identify conversion factor: 1 pint = 473.17648 mL.\n2. Perform the calculation: 1 * 473.17648 = 473.17648 mL.\n<answer>473.17648</answer> mL."
+    "1. Identify the conversion factor: 1 pint = 473.17648 mL.\n2. Perform the calculation: 1 * 473.17648 = 473.17648 mL.\n<answer>473.17648</answer> mL."
   ],
   [
     "How do we translate 6 hours into min?",
     360.0,
-    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360.\n<answer>360</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360.\n<answer>360</answer> minutes."
   ],
   [
     "How do we translate 5 kB into B?",
@@ -512,37 +582,32 @@
   [
     "How do we translate 10 ton into kg?",
     10000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 10 * 1000 = 10000.\n3. The answer is <answer>10000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 10 * 1000 = 10000 kilograms.\n<answer>10000</answer> kilograms."
   ],
   [
     "Please convert 2 mph into km/h.",
     3.2186879999999998,
-    "1. Identify conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert distance: 2 * 1.60934 = 3.21868 kilometers.\n3. Convert time: 3.21868 kilometers / 1 hour = 3.21868 km/h.\n<answer>3.21868</answer> km/h."
+    "1. Identify the conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert distance: 2 * 1.60934 = 3.21868 kilometers.\n3. Convert time: 3.21868 kilometers / 1 hour = 3.21868 km/h.\n<answer>3.21868</answer> km/h."
   ],
   [
     "Can you provide the conversion value from metric ton to kg for 3 units?",
     3000.0,
-    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kg."
+    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000 kg.\n<answer>3000</answer> kg."
   ],
   [
     "Please convert 4 kB into bit.",
     32000.0,
-    "1. Identify the conversion factor: 1 kilobyte (kB) = 1000 bytes.\n2. Convert bytes to bits: 1 byte = 8 bits.\n3. Perform the calculation: 4 * 1000 * 8 = 32000.\n<answer>32000</answer> bits."
+    "1. Identify conversion factor: 1 kilobyte (KB) = 1000 bytes = 1000 * 8 bits = 8000 bits.\n2. Perform the calculation: 4 * 8000 = 32000.\n<answer>32000</answer> bits."
   ],
   [
     "Can you provide the conversion value from tonne to kg for 2 units?",
     2000.0,
-    "1. Identify conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> kilograms."
+    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> kg."
   ],
   [
     "How do we express 8 decade in terms of year?",
     80.0,
-    "1. Identify conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 8 * 10 = 80 years.\n<answer>80</answer> years."
-  ],
-  [
-    "How do we express 10 milliliter in terms of cm**3?",
-    9.999999999999998,
-    "1. Identify the conversion factor: 1 milliliter = 1 cm^3.\n2. Perform the calculation: 10 * 1 = 10.\n<answer>10</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 8 decades * 10 years = 80 years.\n<answer>80</answer> years."
   ],
   [
     "What is the equivalent of 6 L in gallon?",
@@ -552,7 +617,7 @@
   [
     "How do we translate 1 L into ounce?",
     33.81402270184299,
-    "1. Identify conversion factor: 1 liter = 33.81402 ounces.\n2. Perform the calculation: 1 * 33.81402 = 33.81402.\n<answer>33.81402</answer> fluid ounces."
+    "1. Identify conversion factor: 1 liter = 33.8140227 US fluid ounces.\n2. Perform the calculation: 1 * 33.8140227 = 33.8140227.\n<answer>33.8140227</answer> ounces."
   ],
   [
     "Express 8 bit as a quantity of byte.",
@@ -560,14 +625,24 @@
     "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 8 bits * 1 byte = 1 byte.\n<answer>1</answer> byte."
   ],
   [
+    "What is the measurement of 5 months when converted into week?",
+    21.7406070703125,
+    "1. Identify the conversion factor: 1 month = 4.34812 weeks.\n2. Perform the calculation: 5 * 4.34812 = 21.7406.\n<answer>21.7406</answer> weeks."
+  ],
+  [
     "Please convert 1 KB into B.",
     1000.0,
-    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> bytes."
+    "1. Identify conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000 bytes.\n3. The answer is <answer>1000</answer> bytes."
   ],
   [
     "Tell me how many meter are there in 10 km.",
     10000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 10 * 1000 = 10000 meters.\n<answer>10000</answer> meters."
+    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> meters."
+  ],
+  [
+    "Could you convert 8 kB to its corresponding value in B?",
+    8000.0,
+    "1. Identify the conversion factor: 1 kilobyte (kB) = 1000 bytes.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> bytes."
   ],
   [
     "Convert 7 bit to byte?",
@@ -582,22 +657,27 @@
   [
     "Can you change 3 liter to its equivalent in millilitre?",
     3000.0000000000005,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 3 * 1000 = 3000 milliliters.\n<answer>3000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> milliliters."
+  ],
+  [
+    "What is the conversion from bit to B for 3 units?",
+    0.375,
+    "1. Identify conversion factor: 1 bit = 0.125 B.\n2. Perform the calculation: 3 units * 0.125 = 0.375.\n<answer>0.375</answer> B."
   ],
   [
     "What is the conversion from century to month for 6 units?",
     7200.0,
-    "1. Identify the conversion factor: 1 century = 100 years; 1 year = 12 months.\n2. Convert years to months: 6 * 100 * 12 = 7200 months.\n3. The answer is <answer>7200</answer> months."
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Identify the conversion factor: 1 year = 12 months.\n3. Perform the calculation: 6 * 100 * 12 = 7200.\n<answer>7200</answer> months."
   ],
   [
     "How much is 5 pint when converted to gallon?",
     0.625,
-    "1. Identify conversion factor: 1 pint = 0.125 gallons.\n2. Perform the calculation: 5 * 0.125 = 0.625.\n<answer>0.625</answer> gallons."
+    "1. Identify conversion factor: 1 pint = 0.125 gallons.\n2. Perform the calculation: 5 * 0.125 = 0.625 gallons.\n<answer>0.625</answer> gallons."
   ],
   [
     "Convert the measurement of 5 kg into g.",
     5000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000 grams.\n<answer>5000</answer> grams."
   ],
   [
     "How many gram make up 3 kg?",
@@ -607,42 +687,52 @@
   [
     "What is the measurement of 7 century when converted into decade?",
     70.0,
-    "1. Identify conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 7 * 10 = 70.\n<answer>70</answer> decades."
+    "1. Identify the conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 7 * 10 = 70.\n<answer>70</answer> decades."
   ],
   [
     "Can you change 10 byte to its equivalent in bit?",
     80.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 * 8 = 80 bits.\n<answer>80</answer> bits."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 * 8 = 80.\n<answer>80</answer> bits."
   ],
   [
     "What is the conversion from millilitre to mm^3 for 7 units?",
     6999.999999999999,
-    "1. Identify conversion factor: 1 milliliter = 1000 cubic millimeters.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> mm^3."
+    "1. Identify the conversion factor: 1 milliliter = 1 cubic centimeter = 1000 cubic millimeters.\n2. Perform the calculation: 7 * 1000 = 7000 cubic millimeters.\n<answer>7000</answer> cubic millimeters."
   ],
   [
     "What does 5 hours equal in min terms?",
     300.0,
-    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 5 * 60 = 300 minutes.\n<answer>300</answer> minutes."
+    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 5 * 60 = 300.\n<answer>300</answer> minutes."
   ],
   [
     "What does 4 meter equal in ft terms?",
     13.123359580052492,
-    "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 4 * 3.28084 = 13.12336.\n<answer>13.12336</answer> feet."
+    "1. Identify the conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 4 * 3.28084 = 13.12336.\n<answer>13.12336</answer> feet."
   ],
   [
     "What is the conversion from h to seconds for 2 units?",
     7200.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n3. The answer is <answer>7200</answer> seconds."
+  ],
+  [
+    "Convert 5 GB to M?",
+    5000.0,
+    "1. Identify the conversion factor: 1 gigabyte (GB) = 1000 megabytes (MB).\n2. Perform the calculation: 5 * 1000 = 5000.\n3. <answer>5000</answer> megabytes."
+  ],
+  [
+    "Could you give the conversion from l to gallon for 9 units?",
+    2.377548471223335,
+    "1. Identify the conversion factor: 1 liter = 0.264172 gallons.\n2. Perform the calculation: 9 * 0.264172 = 2.377548.\n3. <answer>2.377548</answer> gallons."
   ],
   [
     "Convert 1 pound to ounce?",
     16.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 1 * 16 = 16.\n<answer>16</answer> ounces."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 1 * 16 = 16.\n<answer>16</answer> ounces."
   ],
   [
     "What is the equivalent of 6 in in mm?",
     152.4,
-    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 6 * 25.4 = 152.4.\n<answer>152.4</answer> mm."
+    "1. Identify the conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 6 * 25.4 = 152.4.\n<answer>152.4</answer> millimeters."
   ],
   [
     "Convert the measurement of 2 min into sec.",
@@ -657,17 +747,17 @@
   [
     "How many s is 7 min?",
     420.0,
-    "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 7 * 60 = 420 seconds.\n3. <answer>420</answer> seconds."
+    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 7 * 60 = 420.\n<answer>420</answer> seconds."
   ],
   [
     "What is the equivalent of 6 hours in s?",
     21600.0,
-    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 6 * 3600 = 21600.\n<answer>21600</answer> seconds."
+    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Multiply the factor by the hours: 6 * 3600 = 21600.\n<answer>21600</answer> seconds."
   ],
   [
     "Could you give the conversion from h to second for 4 units?",
     14400.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 4 * 3600 = 14400 seconds.\n<answer>14400</answer> seconds."
+    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 4 * 3600 = 14400.\n<answer>14400</answer> seconds."
   ],
   [
     "What is 7 hour in s?",
@@ -677,47 +767,47 @@
   [
     "Convert the measurement of 6 h into minute.",
     360.0,
-    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360 minutes.\n<answer>360</answer> minutes."
+    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360 minutes.\n<answer>360</answer> minutes."
   ],
   [
     "How many fluid ounce make up 2 pint?",
     32.0,
-    "1. Identify conversion factor: 1 pint = 2 cups = 16 fluid ounces.\n2. Perform the calculation: 2 * 16 = 32 fluid ounces.\n<answer>32</answer> fluid ounces."
+    "1. Identify conversion factor: 1 pint = 16 fluid ounces.\n2. Perform the calculation: 2 * 16 = 32.\n<answer>32</answer> fluid ounces."
   ],
   [
     "How does 2 m^3 measure up in terms of liter?",
     2000.0,
-    "1. Identify conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 2 * 1000 = 2000 liters.\n<answer>2000</answer> liters."
+    "1. Identify conversion factor: 1 m^3 = 1000 L.\n2. Perform the calculation: 2 * 1000 = 2000 L.\n<answer>2000</answer> liters."
   ],
   [
     "Can you change 3 bit to its equivalent in byte?",
     0.375,
-    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 3 * 0.125 = 0.375.\n<answer>0.375</answer> bytes."
+    "1. Identify conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 3 * 0.125 = 0.375.\n<answer>0.375</answer> bytes."
   ],
   [
     "Could you convert 6 mi to its corresponding value in yd?",
     10559.999999999998,
-    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 6 * 1760 = 10560.\n<answer>10560</answer> yards."
+    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 6 * 1760 = 10560.\n3. The answer is <answer>10560</answer> yards."
   ],
   [
     "Tell me how many pound are there in 1 kg.",
     2.2046226218487757,
-    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 1 * 2.20462 = 2.20462.\n3. The answer is <answer>2.20462</answer> pounds."
+    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 1 * 2.20462 = 2.20462.\n<answer>2.20462</answer> pounds."
   ],
   [
     "Can you provide the conversion value from yd to mm for 3 units?",
     2743.2000000000003,
-    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Convert distance: 3 yards * 91.44 cm = 274.32 cm.\n3. Convert centimeters to millimeters: 274.32 cm * 10 mm = 2743.2 mm.\n<answer>2743.2</answer> mm."
+    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Convert centimeters to millimeters: 91.44 cm * 10 = 914.4 mm.\n3. Perform the calculation: 3 * 914.4 = 2743.2.\n<answer>2743.2</answer> millimeters."
   ],
   [
     "What is the conversion of 5 L to cc?",
     4999.999999999999,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters (cc).\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> cc."
+    "1. Identify the conversion factor:1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 5 * 1000 = 5000.\n3. The answer is <answer>5000</answer> cubic centimeters."
   ],
   [
     "Could you convert 1 decades to its corresponding value in year?",
     10.0,
-    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 1 decade * 10 = 10 years.\n<answer>10</answer> years."
+    "1. Identify conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 1 decade * 10 = 10 years.\n<answer>10</answer> years."
   ],
   [
     "What is the equivalent of 1 tonne in kg?",
@@ -727,52 +817,62 @@
   [
     "What is the equivalent of 1 cc in mm**3?",
     1000.0000000000001,
-    "1. Identify conversion factor: 1 cubic centimeter = 1 cubic millimeter.\n2. Perform the calculation: 1 cubic centimeter * 1000 = 1000 cubic millimeters.\n3. The answer is <answer>1000</answer> mm<sup>3</sup>."
+    "1. Identify the conversion factor: 1 cubic centimeter = 1 milliliter = 1 cubic meter = 1000 cubic millimeters.\n2. Perform the calculation: 1000 * 1 = 1000.\n<answer>1000</answer> mm<sup>3</sup>."
+  ],
+  [
+    "How many mi/h is 4 kmh?",
+    2.4854847689493362,
+    "1. Identify the conversion factor: 1 km = 0.621371 mi.\n2. Perform the calculation: 4 * 0.621371 = 2.485484.\n<answer>2.485484</answer> mi/h."
   ],
   [
     "How many cm**3 is 4 litre?",
     3999.9999999999995,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters (cm**3).\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> cubic centimeters."
+    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 4 liters * 1000 cc/liter = 4000 cubic centimeters.\n<answer>4000</answer> cubic centimeters."
   ],
   [
     "What does 2 cm^3 equal in mm**3 terms?",
     2000.0000000000002,
-    "1. Identify conversion factors: 1 cm = 10 mm.\n2. Cube the factor for volume: 1 cm^3 = (10 mm)^3 = 1000 mm^3.\n3. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> mm<sup>3</sup>."
+    "1. Identify conversion factor: 1 cm = 10 mm.\n2. Cube the factor for volume: 2 cm^3 * (10 mm)^3 = 2 * 1000 mm^3 = 2000 mm^3.\n<answer>2000</answer> mm^3."
   ],
   [
     "How many minute is 9 day?",
     12960.0,
-    "1. Identify conversion factor: 1 day = 24 hours; 1 hour = 60 minutes.\n2. Convert days to hours: 9 days * 24 hours/day = 216 hours.\n3. Convert hours to minutes: 216 hours * 60 minutes/hour = 12960 minutes.\n<answer>12960</answer> minutes."
+    "1. Identify the conversion factor: 1 day = 24 hours and 1 hour = 60 minutes.\n2. Perform the calculation: 9 * 24 * 60 = 12960 minutes.\n<answer>12960</answer> minutes."
   ],
   [
     "Could you convert 1 kg to its corresponding value in pound?",
     2.2046226218487757,
-    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 1 * 2.20462 = 2.20462.\n<answer>2.20462</answer> pounds."
+    "1. Identify conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 1 * 2.20462 = 2.20462 pounds.\n<answer>2.20462</answer> pounds."
   ],
   [
     "Tell me how many m/s are there in 6 ft/s.",
     1.8288000000000002,
-    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Convert 6 feet to meters: 6 * 0.3048 = 1.8288 meters.\n3. Convert 1 second to meters per second: 1 m/s = 1 meter / 1 second.\n4. Perform the calculation: 1.8288 meters / 1 second = 1.8288 m/s.\n<answer>1.8288</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Convert the speed: 6 ft/s * 0.3048 = 1.8288 m/s.\n<answer>1.8288</answer> m/s."
   ],
   [
     "Can you change 4 kg to its equivalent in pound?",
     8.818490487395103,
-    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 4 * 2.20462 = 8.8185.\n<answer>8.8185</answer> pounds."
+    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 4 * 2.20462 = 8.81848.\n<answer>8.8185</answer> pounds."
   ],
   [
     "Can you provide the conversion value from L to ml for 9 units?",
     9000.000000000002,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 9 liters * 1000 = 9000 milliliters.\n<answer>9000</answer> milliliters."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> milliliters."
   ],
   [
     "What is the conversion of 6 meter to cm?",
     600.0,
-    "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 6 meters * 100 = 600 centimeters.\n<answer>600</answer> centimeters."
+    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 6 * 100 = 600.\n<answer>600</answer> centimeters."
   ],
   [
     "How many yd make up 3 miles?",
     5279.999999999999,
     "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 3 * 1760 = 5280.\n<answer>5280</answer> yards."
+  ],
+  [
+    "What is the conversion of 9 kmh to mph?",
+    5.592340730136007,
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert distance: 9 km * 0.621371 = 5.592349 miles.\n3. Convert time: 5.592349 miles / 1 hour = 5.592349 miles/hour.\n<answer>5.592349</answer> mph."
   ],
   [
     "How many meter are there per 2 ft?",
@@ -782,22 +882,22 @@
   [
     "Can you change 4 liter to its equivalent in gallon?",
     1.0566882094325933,
-    "1. Identify conversion factor: 1 liter = 0.264172 gallons.\n2. Perform the calculation: 4 * 0.264172 = 1.056688.\n<answer>1.056688</answer> gallons."
+    "1. Identify the conversion factor: 1 liter = 0.264172 gallons.\n2. Perform the calculation: 4 * 0.264172 = 1.056688.\n<answer>1.056688</answer> gallons."
   ],
   [
     "How do we translate 10 bit into byte?",
     1.25,
-    "1. Identify conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 10 * 0.125 = 1.25.\n<answer>1.25</answer> byte."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 bits / 8 = 1.25.\n<answer>1.25</answer> bytes."
   ],
   [
     "How do we translate 3 kg into pound?",
     6.613867865546327,
-    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 3 * 2.20462 = 6.61386.\n<answer>6.61386</answer> pounds."
+    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 3 * 2.20462 = 6.61386.\n<answer>6.61386</answer> pounds"
   ],
   [
     "How many yd are there per 1 miles?",
     1759.9999999999998,
-    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 1760 yards * 1 mile = 1760.\n<answer>1760</answer> yards are there per 1 mile."
+    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 1760 yards.\n<answer>1760</answer> yards."
   ],
   [
     "How does 8 ft measure up in terms of meter?",
@@ -812,37 +912,47 @@
   [
     "What is the measurement of 5 weeks when converted into hour?",
     840.0,
-    "1. Identify conversion factor: 1 week = 7 days.\n2. Convert days to hours: 7 days * 24 hours = 168 hours.\n3. Perform the calculation: 168 hours * 5 weeks = 840 hours.\n<answer>840</answer> hours."
+    "1. Identify the conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Convert days: 5 weeks * 7 days/week = 35 days.\n3. Convert days to hours: 35 days * 24 hours/day = 840 hours.\n<answer>840</answer> hours."
   ],
   [
     "Can you change 5 metric ton to its equivalent in kg?",
     5000.0,
-    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> kilograms."
+    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000 kilograms.\n3. The answer is <answer>5000</answer> kilograms."
+  ],
+  [
+    "How many kg is 3 pound?",
+    1.3607771100000001,
+    "1. Identify conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 3 * 0.453592 = 1.360776.\n3. <answer>1.360776</answer> kg."
   ],
   [
     "Convert the measurement of 2 yd into mm.",
     1828.8000000000002,
-    "1. Identify conversion factor: 1 yard = 91.44 centimeters and 1 centimeter = 10 millimeters.\n2. Perform the calculation: 2 yards * 91.44 cm * 10 mm = 1828.8 mm.\n3. The answer is <answer>1828.8</answer> mm."
+    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Convert distance: 2 yards * 91.44 = 182.88 centimeters.\n3. Convert centimeters to millimeters: 1 cm = 10 mm.\n4. Perform the calculation: 182.88 cm * 10 = 1828.8 mm.\n<answer>1828.8</answer> mm."
   ],
   [
     "What is 6 m/s in kmh?",
     21.599999999999998,
-    "1. Identify the conversion factor: 1 meter per second = 3.6 kilometers per hour.\n2. Perform the calculation: 6 * 3.6 = 21.6.\n<answer>21.6</answer> kilometers per hour."
+    "1. Identify conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation: 6 * 3.6 = 21.6.\n<answer>21.6</answer> kilometers per hour."
+  ],
+  [
+    "Could you convert 6 KB to its corresponding value in B?",
+    6000.0,
+    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> bytes."
   ],
   [
     "How does 6 cm measure up in terms of mm?",
     60.0,
-    "1. Identify conversion factor: 1 cm = 10 mm.\n2. Perform the calculation: 6 cm * 10 = 60 mm.\n3. The answer is <answer>60</answer> mm."
+    "1. Identify conversion factor: 1 centimeter = 10 millimeters.\n2. Perform the calculation: 6 * 10 = 60.\n<answer>60</answer> millimeters."
   ],
   [
     "Convert the measurement of 2 hour into minute.",
     120.0,
-    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 2 * 60 = 120.\n<answer>120</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 2 * 60 = 120 minutes.\n<answer>120</answer> minutes."
   ],
   [
     "What is the measurement of 2 decades when converted into month?",
     240.0,
-    "1. Identify conversion factor: 1 decade = 10 years.\n2. 1 year = 12 months.\n3. Perform the calculation: 2 * 10 * 12 = 240.\n<answer>240</answer> months."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Identify the conversion factor: 1 year = 12 months.\n3. Perform the calculation: 2 decades * 10 years * 12 months/year = 240 months.\n<answer>240</answer> months."
   ],
   [
     "Please convert 2 byte into bit.",
@@ -852,12 +962,12 @@
   [
     "Convert the measurement of 1 ton into kg.",
     1000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kg."
+    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kilograms."
   ],
   [
     "What is the conversion of 4 m**3 to l?",
     4000.0,
-    "1. Identify conversion factor: 1 m^3 = 1000 liters.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> liters."
+    "1. Identify conversion factor: 1 m^3 = 1000 liters.\n2. Perform the calculation: 4 * 1000 = 4000 liters.\n<answer>4000</answer> liters."
   ],
   [
     "Please convert 2 B into bit.",
@@ -867,7 +977,7 @@
   [
     "How do we translate 8 l into cc?",
     7999.999999999999,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 8 * 1000 = 8000 cc.\n<answer>8000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 8 liters * 1000 cc/liter = 8000 cc.\n<answer>8000</answer> cubic centimeters."
   ],
   [
     "What is the equivalent of 1 meter in yd?",
@@ -877,47 +987,52 @@
   [
     "How does 4 GB measure up in terms of MB?",
     4000.0,
-    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 4 GB * 1000 = 4000 MB.\n<answer>4000</answer> MB."
+    "1. Identify the conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 4 GB * 1000 = 4000 MB.\n3. <answer>4000</answer> MB."
   ],
   [
     "Could you provide the value of 3 pound in ounce?",
     48.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 3 * 16 = 48.\n<answer>48</answer> ounces."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 3 * 16 = 48.\n<answer>48</answer> ounces."
   ],
   [
     "What is 1 liter in fluid ounce?",
     33.81402270184299,
-    "1. Identify conversion factor: 1 liter = 33.814023 fluid ounces.\n2. Perform the calculation: 1 * 33.814023 = 33.814023.\n<answer>33.814023</answer> fluid ounces."
+    "1. Identify the conversion factor: 1 liter = 33.8140227 US fluid ounces.\n2. Perform the calculation: 1 * 33.8140227 = 33.8140227.\n<answer>33.8140227</answer> US fluid ounces."
   ],
   [
     "Tell me how many s are there in 5 min.",
     300.0,
-    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 5 * 60 = 300.\n<answer>300</answer> seconds."
+    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 5 * 60 = 300 seconds.\n<answer>300</answer> seconds."
   ],
   [
     "Could you give the conversion from decade to years for 9 units?",
     90.0,
-    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 9 * 10 = 90.\n<answer>90</answer> years."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 9 * 10 = 90.\n<answer>90</answer> years"
   ],
   [
     "Convert 5 m to cm?",
     500.0,
-    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 5 * 100 = 500.\n<answer>500</answer> cm."
+    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Multiply the number by the conversion factor: 5 * 100 = 500.\n<answer>500</answer> centimeters"
   ],
   [
     "Could you provide the value of 8 h in min?",
     480.0,
-    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 8 * 60 = 480 minutes.\n<answer>480</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 8 * 60 = 480.\n<answer>480</answer> minutes."
+  ],
+  [
+    "What is 3 week in hours?",
+    504.0,
+    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Multiply the factors: 3 * 7 * 24 = 504.\n<answer>504</answer> hours."
   ],
   [
     "What is the conversion of 4 liter to cc?",
     3999.9999999999995,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (cc).\n2. Perform the calculation: 4 * 1000 = 4000 cc.\n<answer>4000</answer> cc."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters (cc).\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> cubic centimeters."
   ],
   [
     "Can you change 2 yd to its equivalent in m?",
     1.8288000000000002,
-    "1. Identify conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 2 * 0.9144 = 1.8288.\n<answer>1.8288</answer> meters."
+    "1. Identify the conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 2 * 0.9144 = 1.8288.\n<answer>1.8288</answer> meters."
   ],
   [
     "What is 7 kg in gram?",
@@ -925,94 +1040,124 @@
     "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> grams."
   ],
   [
+    "What is the measurement of 4 kB when converted into byte?",
+    4000.0,
+    "1. Identify the conversion factor: 1 kilobyte (kB) = 1000 bytes.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> bytes."
+  ],
+  [
     "Convert the measurement of 1 liter into millilitre.",
     1000.0000000000001,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> milliliters."
   ],
   [
     "What is the equivalent of 8 cm in mm?",
     80.0,
-    "1. Identify conversion factor: 1 centimeter = 10 millimeters.\n2. Perform the calculation: 8 * 10 = 80.\n<answer>80</answer> millimeters."
+    "1. Identify conversion factor: 1 cm = 10 mm.\n2. Perform the calculation: 8 * 10 = 80.\n<answer>80</answer> mm."
   ],
   [
     "Could you provide the value of 9 GB in MB?",
     9000.0,
-    "1. Identify conversion factor: 1 gigabyte = 1000 megabytes.\n2. Perform the calculation: 9 * 1000 = 9000.\nThe answer is <answer>9000</answer> MB."
+    "1. Identify the conversion factor: 1 gigabyte = 1000 megabytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> megabytes."
   ],
   [
     "How do we express 9 km/h in terms of m/s?",
     2.5,
-    "1. Identify the conversion factor: 1 km = 1000 meters; 1 hour = 3600 seconds.\n2. Convert distance: 9 km * 1000 = 9000 meters.\n3. Convert time: 9000 meters / 3600 seconds = 2.5 m/s.\n<answer>2.5</answer> m/s."
+    "1. Identify conversion factor: 1 km = 1000 meters; 1 hour = 3600 seconds.\n2. Convert distance: 9 km * 1000 = 9000 meters.\n3. Convert time: 9000 meters / 3600 seconds = 2.5 m/s.\n4. The answer is <answer>2.5</answer> m/s."
   ],
   [
     "What is the measurement of 2 decades when converted into months?",
     240.0,
-    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Convert years: 2 decades * 10 years = 20 years.\n3. Convert years to months: 20 years * 12 months/year = 240 months.\n<answer>240</answer> months."
+    "1. Identify conversion factor: 1 decade = 10 years.\n2. Identify conversion factor: 1 year = 12 months.\n3. Perform the calculation: 2 * 10 * 12 = 240.\n<answer>240</answer> months."
   ],
   [
     "What is the conversion of 2 liter to cc?",
     1999.9999999999998,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> cubic centimeters."
+    "1. Identify conversion factors: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> cubic centimeters."
   ],
   [
     "What is the measurement of 10 week when converted into hour?",
     1680.0,
-    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Multiply the factors: 10 * 7 * 24 = 1680 hours.\n<answer>1680</answer> hours."
+    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Perform the calculation: 10 * 7 * 24 = 1680.\n<answer>1680</answer> hours."
+  ],
+  [
+    "What is 5 bit in byte?",
+    0.625,
+    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 5 * 0.125 = 0.625.\n<answer>0.625</answer> bytes."
   ],
   [
     "How does 8 in measure up in terms of cm?",
     20.32,
-    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> centimeters."
+    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> cm."
+  ],
+  [
+    "How many ft is 8 miles?",
+    42240.0,
+    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 8 * 5280 = 42240.\n<answer>42240</answer> feet."
   ],
   [
     "Can you provide the conversion value from weeks to hour for 8 units?",
     1344.0,
-    "1. Identify the conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Multiply the factors: 8 units * 7 * 24 = 1344 hours.\n3. <answer>1344</answer> hours."
+    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Perform the calculation: 8 * 7 * 24 = 1344 hours.\n3. The answer is <answer>1344</answer> hours."
+  ],
+  [
+    "Convert 10 kmh to mph?",
+    6.21371192237334,
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n3. The answer is <answer>6.21371</answer> miles per hour."
   ],
   [
     "Express 6 GB as a quantity of MB.",
     6000.0,
-    "1. Identify the conversion factor: 1 gigabyte = 1000 megabytes.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> megabytes."
+    "1. Identify the conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 6 * 1000 = 6000 MB.\n<answer>6000</answer> MB."
   ],
   [
     "What does 7 quart equal in pint terms?",
     14.0,
-    "1. Identify conversion factor: 1 quart = 2 pints.\n2. Perform the calculation: 7 * 2 = 14.\n<answer>14</answer> pints."
+    "1. Identify the conversion factor: 1 quart = 2 pints.\n2. Perform the calculation: 7 * 2 = 14.\n<answer>14</answer> pints."
+  ],
+  [
+    "Express 2 G as a quantity of MB.",
+    2000.0,
+    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> MB."
   ],
   [
     "Could you provide the value of 6 metric ton in kg?",
     6000.0,
-    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> kilograms."
+    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> kilograms."
   ],
   [
     "How do we translate 9 B into bit?",
     72.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 9 * 8 = 72.\n<answer>72</answer> bits."
+    "1. Identify conversion factors: 1 byte = 8 bits.\n2. Perform the calculation: 9 * 8 = 72 bits.\n<answer>72</answer> bits."
   ],
   [
     "How many h is 4 day?",
     96.0,
-    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 4 * 24 = 96 hours.\n<answer>96</answer> hours"
+    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 4 * 24 = 96 hours.\n<answer>96</answer> hours."
   ],
   [
     "Tell me how many mm are there in 5 m.",
     5000.0,
-    "1. Identify conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> millimeters."
+    "1. Identify conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 5 * 1000 = 5000 millimeters.\n<answer>5000</answer> millimeters."
+  ],
+  [
+    "How many milliliter make up 2 cm^3?",
+    2.0000000000000004,
+    "1. Identify the conversion factor: 1 cubic centimeter = 1 milliliter.\n2. Perform the calculation: 2 * 1 = 2 milliliters.\n<answer>2</answer> milliliters."
   ],
   [
     "Convert the measurement of 6 ft into m.",
     1.8288000000000002,
-    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 6 * 0.3048 = 1.8288 meters.\n<answer>1.8288</answer> meters."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 6 * 0.3048 = 1.8288.\n<answer>1.8288</answer> meters."
   ],
   [
     "How many millilitre make up 3 cc?",
     3.000000000000001,
-    "1. Identify conversion factor: 1 cc = 1 mL.\n2. Perform the calculation: 3 * 1 = 3 mL.\n<answer>3</answer> mL."
+    "1. Identify the conversion factor: 1 cc = 1 mL.\n2. Perform the calculation: 3 cc * 1 mL = 3 mL.\n<answer>3</answer> milliliters."
   ],
   [
     "Express 1 ft as a quantity of cm.",
     30.48,
-    "1. Identify the conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
+    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
   ],
   [
     "Please convert 6 meter into ft.",
@@ -1020,9 +1165,19 @@
     "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 6 * 3.28084 = 19.68504.\n<answer>19.68504</answer> feet."
   ],
   [
+    "How do we translate 10 KB into byte?",
+    10000.0,
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 10 * 1000 = 10000 bytes.\n<answer>10000</answer> bytes."
+  ],
+  [
     "Can you provide the conversion value from in to cm for 8 units?",
     20.32,
-    "1. Identify the conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> centimeters."
+    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> centimeters."
+  ],
+  [
+    "Please convert 6 G into M.",
+    6000.0,
+    "1. Identify the conversion factor: 1 giga = 1000 million.\n2. Perform the calculation: 6 giga * 1000 million = 6000 million.\n<answer>6000</answer> million."
   ],
   [
     "Express 1 meter as a quantity of yd.",
@@ -1030,29 +1185,49 @@
     "1. Identify conversion factor: 1 meter = 1.09361 yards.\n2. Perform the calculation: 1 * 1.09361 = 1.09361.\n<answer>1.09361</answer> yards."
   ],
   [
+    "Convert the measurement of 5 M into kB.",
+    5000.0,
+    "1. Identify the conversion factor: 1 M = 1000 KB.\n2. Perform the calculation: 5 * 1000 = 5000.\n3. The answer is <answer>5000</answer> kilobytes."
+  ],
+  [
     "Convert 10 meter to mm?",
     10000.0,
-    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 10 * 1000 = 10000 mm.\n<answer>10000</answer> mm."
+    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> millimeters."
+  ],
+  [
+    "Can you change 4 MB to its equivalent in kB?",
+    4000.0,
+    "1. Identify the conversion factor: 1 MB = 1000 kB.\n2. Perform the calculation: 4 * 1000 = 4000.\n3. The answer is <answer>4000</answer> kilobytes."
   ],
   [
     "What does 1 liter equal in mL terms?",
     1000.0000000000001,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> mL."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> mL."
+  ],
+  [
+    "What does 4 kg equal in pound terms?",
+    8.818490487395103,
+    "1. Identify the conversion factor: 1 kilogram = 2.20462 pounds.\n2. Perform the calculation: 4 * 2.20462 = 8.81848.\n<answer>8.8185</answer> pounds."
   ],
   [
     "Could you provide the value of 2 cm in mm?",
     20.0,
-    "1. Identify the conversion factor: 1 centimeter = 10 millimeters.\n2. Perform the calculation: 2 * 10 = 20.\n<answer>20</answer> millimeters."
+    "1. Identify conversion factor: 1 centimeter = 10 millimeters.\n2. Perform the calculation: 2 * 10 = 20.\n<answer>20</answer> millimeters."
   ],
   [
     "How does 1 miles measure up in terms of ft?",
     5280.0,
-    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 1 * 5280 = 5280.\n3. The answer is <answer>5280</answer> feet."
+    "1. Identify the conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 1 * 5280 = 5280.\n<answer>5280</answer> feet."
+  ],
+  [
+    "Please convert 10 century into decades.",
+    100.0,
+    "1. Identify the conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 10 * 10 = 100.\n<answer>100</answer> decades."
   ],
   [
     "How do we translate 3 ton into kg?",
     3000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kg.\n2. Multiply by the conversion factor: 3 * 1000 = 3000 kg.\n<answer>3000</answer> kg."
   ],
   [
     "Convert 2 pint to L?",
@@ -1062,32 +1237,42 @@
   [
     "What is the conversion of 8 millilitre to cc?",
     7.999999999999998,
-    "1. Identify conversion factor: 1 milliliter = 1 cubic centimeter (cc).\n2. Perform the calculation: 8 * 1 = 8 cc.\n<answer>8</answer> cc."
+    "1. Identify the conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Perform the calculation: 8 * 1 = 8.\n<answer>8</answer> cubic centimeters."
   ],
   [
     "How much is 2 weeks when converted to hour?",
     336.0,
-    "1. Identify conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Convert days to hours: 2 * 7 * 24 = 336.\n3. <answer>336</answer> hours."
+    "1. Identify the conversion factor: 1 week = 7 days and 1 day = 24 hours.\n2. Perform the calculation: 2 * 7 * 24 = 336 hours.\n<answer>336</answer> hours."
   ],
   [
     "How many mm is 10 in?",
     254.00000000000003,
-    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 10 * 25.4 = 254.\n<answer>254</answer> mm."
+    "1. Identify the conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 10 * 25.4 = 254.\n<answer>254</answer> millimeters."
   ],
   [
     "Can you change 7 bit to its equivalent in byte?",
     0.875,
-    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 7 * 0.125 = 0.875.\n<answer>0.875</answer> bytes."
+    "1. Identify the conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 7 * 0.125 = 0.875.\n<answer>0.875</answer> bytes."
   ],
   [
     "Convert 8 ml to cm^3?",
     7.999999999999998,
-    "1. Identify the conversion factor: 1 milliliter = 1 cm^3.\n2. Perform the calculation: 8 * 1 = 8.\n<answer>8</answer> cm^3."
+    "1. Identify conversion factor: 1 milliliter = 1 cm^3.\n2. Perform the calculation: 8 ml * 1 cm^3 = 8 cm^3.\n<answer>8</answer> cm^3."
   ],
   [
     "Please convert 1 m/s into km/h.",
     3.5999999999999996,
-    "1. Identify the conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 1 * 3.6 = 3.6.\n<answer>3.6</answer> km/h."
+    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 1 * 3.6 = 3.6.\n3. The answer is <answer>3.6</answer> km/h."
+  ],
+  [
+    "Express 5 pound as a quantity of gram.",
+    2267.96185,
+    "1. Identify the conversion factor: 1 pound = 453.59237 grams.\n2. Perform the calculation: 5 * 453.59237 = 2267.96185.\n<answer>2267.96185</answer> grams."
+  ],
+  [
+    "Can you change 7 meter to its equivalent in ft?",
+    22.96587926509186,
+    "1. Identify the conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 7 * 3.28084 = 22.96588.\n<answer>22.96588</answer> feet."
   ],
   [
     "Can you change 4 years to its equivalent in months?",
@@ -1102,7 +1287,7 @@
   [
     "What is the conversion of 7 liter to cm**3?",
     6999.999999999999,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 7 * 1000 = 7000.\n3. <answer>7000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 7 * 1000 = 7000 cm<sup>3</sup>.\n<answer>7000</answer> cm<sup>3</sup>."
   ],
   [
     "Could you give the conversion from hour to second for 3 units?",
@@ -1112,92 +1297,92 @@
   [
     "Tell me how many seconds are there in 9 minute.",
     540.0,
-    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 9 * 60 = 540.\n<answer>540</answer> seconds."
+    "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 9 * 60 = 540.\n<answer>540</answer> seconds."
   ],
   [
     "How do we translate 8 kB into B?",
     8000.0,
-    "1. Identify the conversion factor: 1 kilobyte (kB) = 1000 bytes.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> bytes."
+    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> bytes."
+  ],
+  [
+    "What is the equivalent of 7 KB in bit?",
+    56000.0,
+    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Convert bytes: 7 KB * 1000 = 7000 bytes.\n3. Convert bits: 7000 bytes * 8 bits/byte = 56000 bits.\n<answer>56000</answer> bits."
   ],
   [
     "What does 4 B equal in bit terms?",
     32.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 bytes * 8 = 32 bits.\n<answer>32</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 * 8 = 32.\n<answer>32</answer> bits."
   ],
   [
     "How does 1 m**3 measure up in terms of litre?",
     1000.0,
-    "1. Identify conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 1 m^3 * 1000 = 1000 liters.\n<answer>1000</answer> liters."
-  ],
-  [
-    "Convert 9 KB to B?",
-    9000.0,
-    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
+    "1. Identify the conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 1 m**3 * 1000 = 1000 liters.\n<answer>1000</answer> liters."
   ],
   [
     "Could you provide the value of 2 yd in in?",
     72.0,
-    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Convert distance: 2 yards * 3 feet = 6 feet.\n3. 1 foot = 12 inches.\n4. Perform the calculation: 6 feet * 12 inches = 72 inches.\n<answer>72</answer> inches."
+    "1. Identify the conversion factor: 1 yard = 3 feet.\n2. Convert distance: 2 yards * 3 feet = 6 feet.\n3. Convert feet to inches: 6 feet * 12 inches/foot = 72 inches.\n<answer>72</answer> inches."
   ],
   [
     "How many cm^3 make up 4 l?",
     3999.9999999999995,
-    "1. Identify conversion factors: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> cubic centimeters."
+    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (or 1 cubic decimeter).\n2. Perform the calculation: 4 * 1000 = 4000 cubic centimeters.\n<answer>4000</answer> cubic centimeters."
   ],
   [
     "What does 3 metric ton equal in kg terms?",
     3000.0,
-    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000 kilograms.\n<answer>3000</answer> kg."
+    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kilograms."
   ],
   [
     "Could you convert 5 yd to its corresponding value in mm?",
     4572.0,
-    "1. Identify conversion factor: 1 yard = 91.44 centimeters and 1 centimeter = 10 millimeters.\n2. Perform the calculation: 5 * 91.44 * 10 = 4572 mm.\n<answer>4572</answer> millimeters."
+    "1. Identify the conversion factor: 1 yard = 91.44 centimeters.\n2. Convert distance: 5 yards * 91.44 cm = 457.2 cm.\n3. Convert centimeters to millimeters: 457.2 cm * 10 mm = 4572 mm.\n<answer>4572</answer> mm."
   ],
   [
     "How much is 7 B when converted to bit?",
     56.0,
-    "1. Identify the conversion factor: 1 byte (B) = 8 bits.\n2. Perform the calculation: 7 * 8 = 56.\n<answer>56</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 7 * 8 = 56.\n<answer>56</answer> bits."
   ],
   [
     "What is the equivalent of 1 B in bit?",
     8.0,
-    "1. Identify the conversion factor: 1 byte (B) = 8 bits.\n2. Perform the calculation: 1 * 8 = 8.\n<answer>8</answer> bits."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 1 * 8 = 8.\n<answer>8</answer> bits."
   ],
   [
     "Convert the measurement of 3 tonne into kg.",
     3000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kilograms."
+    "1. Identify conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000 kilograms.\n<answer>3000</answer> kilograms."
   ],
   [
     "Can you provide the conversion value from year to months for 8 units?",
     96.0,
-    "1. Identify the conversion factor: 1 year = 12 months.\n2. Perform the calculation: 8 * 12 = 96.\n<answer>96</answer> months."
+    "1. Identify conversion factor: 1 year = 12 months.\n2. Perform the calculation: 8 * 12 = 96.\n<answer>96</answer> months."
   ],
   [
     "Express 6 cm**3 as a quantity of ml.",
     6.000000000000002,
-    "1. Identify conversion factor: 1 cm = 10 millimeters; 1 mL = 1 cm3.\n2. Convert distance: 6 cm * 10 = 60 mm.\n3. Convert volume: 60 mm * 1 mL / 10 mm = 6 mL.\n<answer>6</answer> mL."
+    "1. Identify the conversion factor: 1 cm = 10 mm = 1 cm^3 = 1 ml.\n2. Perform the calculation: 6 * 1 = 6.\n3. <answer>6</answer> milliliters."
   ],
   [
     "What is the conversion from gallon to liter for 5 units?",
     18.927058920000007,
-    "1. Identify conversion factor: 1 gallon = 3.78541 liters.\n2. Perform the calculation: 5 * 3.78541 = 18.92705.\n<answer>18.92705</answer> liters."
+    "1. Identify the conversion factor: 1 gallon = 3.78541 liters.\n2. Perform the calculation: 5 * 3.78541 = 18.92705.\n<answer>18.92705</answer> liters."
   ],
   [
     "Express 8 miles as a quantity of yd.",
     14079.999999999998,
-    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 8 * 1760 = 14080.\n<answer>14080</answer> yards."
+    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 8 * 1760 = 14080.\n<answer>14080</answer> yards."
   ],
   [
     "Tell me how many milliliter are there in 8 cc.",
     8.000000000000002,
-    "1. Identify conversion factor: 1 cc = 1 milliliter.\n2. Perform the calculation: 8 * 1 = 8.\n<answer>8</answer> milliliters."
+    "1. Identify conversion factor: 1 cc = 1 ml.\n2. Perform the calculation: 8 * 1 = 8.\n<answer>8</answer> milliliters."
   ],
   [
     "How many cm is 2 ft?",
     60.96,
-    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 2 * 30.48 = 60.96.\n<answer>60.96</answer> centimeters."
+    "1. Identify the conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 2 * 30.48 = 60.96.\n<answer>60.96</answer> centimeters."
   ],
   [
     "Can you change 4 quart to its equivalent in l?",
@@ -1207,22 +1392,22 @@
   [
     "Convert the measurement of 10 km into miles.",
     6.2137119223733395,
-    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> miles."
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> miles."
   ],
   [
     "What is 2 hour in second?",
     7200.0,
-    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Convert time: 2 * 3600 = 7200 seconds.\n<answer>7200</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 hours * 3600 = 7200 seconds.\n<answer>7200</answer> seconds."
   ],
   [
     "How do we translate 4 ft/s into in/s?",
     48.0,
-    "1. Identify conversion factors: 1 foot = 12 inches; 1 second = 1 second.\n2. Convert distance: 4 ft * 12 inches = 48 inches.\n3. Convert time: 48 inches / 1 second = 48.\n<answer>48</answer> inches/s."
+    "1. Identify conversion factors: 1 foot = 12 inches; 1 second = 1 second.\n2. Convert distance: 4 feet * 12 inches = 48 inches.\n3. Convert time: 48 inches / 1 second = 48.\n<answer>48</answer> inches/s."
   ],
   [
     "Convert the measurement of 2 cm**3 into ml.",
     2.0000000000000004,
-    "1. Identify the conversion factor: 1 cm = 10 mm = 100 mm^2 = 10^2 mm^3 = 1 mL.\n2. Perform the calculation: 2 * 1 = 2 mL.\n<answer>2</answer> mL."
+    "1. Identify the conversion factor: 1 cm = 0.01 meters; 1 ml = 0.001 liters.\n2. Convert volume: 2 cm^3 * 0.001 liters / 1 cm = 0.002 liters.\n3. Convert from liters to milliliters: 0.002 liters * 1000 ml = 2 ml.\n<answer>2</answer> ml."
   ],
   [
     "What is the conversion of 5 week to day?",
@@ -1237,22 +1422,27 @@
   [
     "How do we express 8 weeks in terms of h?",
     1344.0,
-    "1. Identify conversion factor: 1 week = 7 days.\n2. Convert days to hours: 8 weeks * 7 days/week * 24 hours/day = 1344 hours.\n<answer>1344</answer> hours."
+    "1. Identify conversion factor: 1 week = 7 days.\n2. Convert days to hours: 8 weeks * 7 days/week * 24 hours/day = 1344 hours.\n3. Perform the calculation: 1344 hours.\n<answer>1344</answer> hours."
   ],
   [
     "Please convert 4 pound into ounce.",
     64.0,
-    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 4 * 16 = 64 ounces.\n<answer>64</answer> ounces."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 4 * 16 = 64.\n<answer>64</answer> ounces."
   ],
   [
     "Can you provide the conversion value from pound to kg for 1 units?",
     0.45359237,
-    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 1 * 0.453592 = 0.453592.\n<answer>0.453592</answer> kilograms."
+    "1. Identify conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 1 * 0.453592 = 0.453592.\n<answer>0.453592</answer> kilograms."
+  ],
+  [
+    "How many B make up 1 bit?",
+    0.125,
+    "1. Identify the conversion factors: 1 byte = 8 bits; 1 bit = 0.125 bytes (because 1 byte = 8 bits).\n2. Perform the calculation: 1 * 0.125 = 0.125.\n3. The answer is <answer>0.125</answer> B."
   ],
   [
     "Express 2 kg as a quantity of gram.",
     2000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 2 * 1000 = 2000 grams.\n<answer>2000</answer> grams."
   ],
   [
     "How does 5 m measure up in terms of ft?",
@@ -1260,34 +1450,39 @@
     "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 5 * 3.28084 = 16.4042 feet.\n<answer>16.4042</answer> feet."
   ],
   [
+    "Please convert 9 kB into byte.",
+    9000.0,
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 9 kB * 1000 = 9000 bytes.\n<answer>9000</answer> bytes."
+  ],
+  [
     "What does 1 bit equal in B terms?",
     0.125,
-    "1. Identify the conversion factor: 1 bit is equivalent to 0.125 bytes.\n2. Convert the value: 1 * 0.125 = 0.125.\n<answer>0.125</answer> bytes."
+    "1. Identify conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 1 * 0.125 = 0.125.\n<answer>0.125</answer> B."
   ],
   [
     "What is 2 min in second?",
     120.0,
-    "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 2 * 60 = 120.\n<answer>120</answer> seconds."
+    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 2 * 60 = 120.\n<answer>120</answer> seconds."
   ],
   [
     "How many decade are there per 4 centuries?",
     40.0,
-    "1. Identify the conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 4 * 10 = 40.\n<answer>40</answer> decades."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Convert centuries to decades: 4 * 10 = 40 decades.\n3. <answer>40</answer> decades."
   ],
   [
     "Can you provide the conversion value from L to cm^3 for 1 units?",
     999.9999999999999,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> cubic centimeters."
   ],
   [
     "How many bit make up 3 byte?",
     24.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 3 bytes * 8 bits/byte = 24 bits.\n<answer>24</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 3 bytes * 8 bits = 24 bits.\n<answer>24</answer> bits."
   ],
   [
     "Tell me how many ft are there in 6 yd.",
     18.0,
-    "1. Identify the conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 6 * 3 = 18.\n<answer>18</answer> feet."
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 6 * 3 = 18.\n<answer>18</answer> feet."
   ],
   [
     "How does 6 meter measure up in terms of mm?",
@@ -1297,27 +1492,27 @@
   [
     "How does 2 byte measure up in terms of bit?",
     16.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 = 16.\n<answer>16</answer> bit."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 = 16.\n<answer>16</answer> bits."
   ],
   [
     "Could you give the conversion from m/s to km/h for 6 units?",
     21.599999999999998,
-    "1. Identify the conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 6 * 3.6 = 21.6.\n<answer>21.6</answer> km/h."
+    "1. Identify the conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation: 6 * 3.6 = 21.6.\n<answer>21.6</answer> km/h."
   ],
   [
     "What is the conversion from hour to minute for 7 units?",
     420.0,
-    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 7 * 60 = 420.\n<answer>420</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 7 * 60 = 420.\n<answer>420</answer> minutes."
   ],
   [
     "What is the measurement of 6 weeks when converted into hour?",
     1008.0,
-    "1. Identify the conversion factor: 1 week = 7 days; 1 day = 24 hours.\n2. Convert days to hours: 6 * 7 * 24 = 1008 hours.\n3. The answer is <answer>1008</answer> hours."
+    "1. Identify conversion factor: 1 week = 7 days = 7 * 24 hours = 168 hours.\n2. Perform the calculation: 6 weeks * 168 hours = 1008 hours.\n<answer>1008</answer> hours."
   ],
   [
     "Can you provide the conversion value from km/h to mi/h for 6 units?",
     3.7282271534240046,
-    "1. Identify conversion factor: 1 kilometer per hour = 0.621371 miles per hour.\n2. Perform the calculation for 6 units: 6 * 0.621371 = 3.728226.\n<answer>3.728226</answer>"
+    "1. Identify the conversion factor: 1 km/h = 0.621371 miles/hour.\n2. Multiply the factor by the number of units: 6 * 0.621371 = 3.72822.\n<answer>3.72822</answer> mph."
   ],
   [
     "What is the equivalent of 10 km in m?",
@@ -1327,32 +1522,42 @@
   [
     "How many years make up 6 centuries?",
     600.0,
-    "1. Identify conversion factor: 1 century = 100 years.\n2. Perform the calculation: 6 * 100 = 600 years.\n<answer>600</answer> years."
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 6 * 100 = 600 years.\n<answer>600</answer> years."
   ],
   [
     "What is the conversion from liter to cm^3 for 6 units?",
     5999.999999999999,
-    "1. Identify the conversion factor: 1 liter = 1000 cm^3.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> cm^3."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters (cm^3).\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> cm^3."
   ],
   [
     "How many m make up 9 km?",
     9000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> meters."
+    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> meters."
+  ],
+  [
+    "What is the conversion from bit to byte for 3 units?",
+    0.375,
+    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 3 * 0.125 = 0.375.\n<answer>0.375</answer> bytes."
   ],
   [
     "What is 1 l in millilitre?",
     1000.0000000000001,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> milliliters."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> milliliters."
+  ],
+  [
+    "How many KB make up 8 M?",
+    8000.0,
+    "1. Identify conversion factor: 1 M = 1000 KB.\n2. Perform the calculation: 8 * 1000 = 8000 KB.\n3. The answer is <answer>8000</answer> KB."
   ],
   [
     "Can you change 10 m^3 to its equivalent in litre?",
     10000.0,
-    "1. Identify conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 10 * 1000 = 10000 liters.\n3. The answer is <answer>10000</answer> liters."
+    "1. Identify the conversion factor: 1 cubic meter = 1000 liters.\n2. Perform the calculation: 10 * 1000 = 10000.\n3. The answer is <answer>10000</answer> liters."
   ],
   [
     "Tell me how many m/s are there in 8 ft/s.",
     2.4384,
-    "1. Identify conversion factor: 1 ft = 0.3048 meters.\n2. Convert distance: 8 ft * 0.3048 = 2.4384 meters.\n3. Convert time: 2.4384 meters / 1 second = 2.4384.\n<answer>2.4384</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Convert distance: 8 feet * 0.3048 = 2.4384 meters.\n3. Convert time: 1 second.\n4. Perform the calculation: 2.4384 m / 1 s = 2.4384 m/s.\n<answer>2.4384</answer> m/s."
   ],
   [
     "How much is 5 km when converted to mi?",
@@ -1360,19 +1565,14 @@
     "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 5 * 0.621371 = 3.106855.\n<answer>3.106855</answer> miles."
   ],
   [
-    "What is the measurement of 9 kmh when converted into mi/h?",
-    5.592340730136007,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 9 * 0.621371 = 5.592339.\n3. The answer is <answer>5.592339</answer> miles per hour."
-  ],
-  [
     "How many year is 10 century?",
     1000.0,
-    "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 10 * 100 = 1000.\n<answer>1000</answer> years."
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 10 * 100 = 1000 years.\n<answer>1000</answer> years."
   ],
   [
     "Can you provide the conversion value from KB to B for 1 units?",
     1000.0,
-    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> bytes."
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> bytes."
   ],
   [
     "What is the conversion from m to ft for 6 units?",
@@ -1382,17 +1582,27 @@
   [
     "How do we translate 1 m/s into km/h?",
     3.5999999999999996,
-    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 1 * 3.6 = 3.6.\n<answer>3.6</answer> km/h."
+    "1. Identify conversion factor: 1 meter per second = 3.6 kilometers per hour.\n2. Perform the calculation: 1 * 3.6 = 3.6.\n<answer>3.6</answer> km/h."
   ],
   [
     "Tell me how many second are there in 8 hours.",
     28800.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 8 * 3600 = 28800.\n<answer>28800</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 60 minutes = 60 * 60 seconds.\n2. Convert hours to minutes: 8 * 60 = 480 minutes.\n3. Convert minutes to seconds: 480 * 60 = 28800.\n<answer>28800</answer> seconds."
   ],
   [
     "Tell me how many sec are there in 2 hour.",
     7200.0,
     "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+  ],
+  [
+    "How much is 3 century when converted to months?",
+    3600.0,
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Understand the conversion: 1 year = 12 months.\n3. Perform the calculation: 3 * 100 * 12 = 3600.\n<answer>3600</answer> months."
+  ],
+  [
+    "How many B are there per 9 bit?",
+    1.125,
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Divide the number of bits by the number of bits per byte: 9 bits / 8 bits/byte = 1.125.\n3. The answer is <answer>1.125</answer> B."
   ],
   [
     "Could you provide the value of 6 kg in gram?",
@@ -1402,22 +1612,27 @@
   [
     "Could you provide the value of 1 kg in gram?",
     1000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> grams."
   ],
   [
     "Could you convert 2 ton to its corresponding value in kg?",
     2000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> kilograms."
+    "1. Identify the conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> kilograms."
   ],
   [
     "Please convert 10 miles into yd.",
     17599.999999999996,
-    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 10 * 1760 = 17600.\n<answer>17600</answer> yards."
+    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 10 * 1760 = 17600 yards.\n<answer>17600</answer> yards."
+  ],
+  [
+    "What does 9 ft equal in mm terms?",
+    2743.2000000000003,
+    "1. Identify conversion factor: 1 foot = 304.8 millimeters.\n2. Multiply the factor by the value: 9 * 304.8 = 2743.2 millimeters.\n<answer>2743.2</answer> mm."
   ],
   [
     "Convert 6 pound to kg?",
     2.7215542200000002,
-    "1. Identify conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 6 * 0.453592 = 2.721552.\n<answer>2.721552</answer> kilograms."
+    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 6 * 0.453592 = 2.721552.\n<answer>2.721552</answer> kilograms."
   ],
   [
     "How do we express 5 liter in terms of gallon?",
@@ -1427,22 +1642,17 @@
   [
     "Express 6 pint as a quantity of fluid ounce.",
     96.0,
-    "1. Identify conversion factor: 1 pint = 16 fluid ounces.\n2. Perform the calculation: 6 * 16 = 96 fluid ounces.\n<answer>96</answer> fluid ounces."
-  ],
-  [
-    "What does 7 ft/s equal in mph terms?",
-    4.772727272727273,
-    "1. Identify conversion factors: 1 ft/s = 0.681818 mph.\n2. Perform the calculation: 7 * 0.681818 = 4.77272.\n<answer>4.77272</answer> mph."
+    "1. Identify conversion factor: 1 pint = 16 fluid ounces.\n2. Perform the calculation: 6 * 16 = 96.\n<answer>96</answer> fluid ounces."
   ],
   [
     "Can you provide the conversion value from m/s to kmh for 5 units?",
     18.0,
-    "1. Identify the conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation for 5 units: 5 * 3.6 = 18.\n<answer>18</answer> km/h."
+    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 5 * 3.6 = 18.\n<answer>18</answer> km/h."
   ],
   [
     "What is the measurement of 8 min when converted into s?",
     480.0,
-    "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 8 * 60 = 480.\n<answer>480</answer> seconds."
+    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 8 * 60 = 480.\n<answer>480</answer> seconds."
   ],
   [
     "Can you provide the conversion value from B to bit for 8 units?",
@@ -1452,47 +1662,52 @@
   [
     "Convert the measurement of 10 quart into pint.",
     20.0,
-    "1. Identify the conversion factor: 1 quart = 2 pints.\n2. Perform the calculation: 10 * 2 = 20.\n<answer>20</answer> pints."
+    "1. Identify the conversion factor: 1 quart = 2 pints.\n2. Perform the calculation: 10 * 2 = 20 pints.\n<answer>20</answer> pints."
   ],
   [
     "How many mph are there per 10 km/h?",
     6.21371192237334,
-    "1. Identify conversion factor: 1 km = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> mph."
+    "1. Identify the conversion factor: 1 km = 0.621371 miles.\n2. Perform the calculation: 10 km * 0.621371 = 6.21371.\n3. <answer>6.21371</answer> mph."
   ],
   [
     "How do we translate 2 days into h?",
     48.0,
-    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Multiply the days by the hours: 2 * 24 = 48 hours.\n<answer>48</answer> hours."
+    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 2 * 24 = 48.\n<answer>48</answer> hours"
   ],
   [
     "How many mL is 5 L?",
     5000.000000000001,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 5 * 1000 = 5000 milliliters.\n<answer>5000</answer> milliliters."
+    "1. Identify the conversion factor: 1 L = 1000 mL.\n2. Perform the calculation: 5 * 1000 = 5000 mL.\n<answer>5000</answer> mL."
   ],
   [
     "What is the conversion of 2 hour to seconds?",
     7200.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200 seconds.\n<answer>7200</answer> seconds."
   ],
   [
     "Convert 6 miles to ft?",
     31680.0,
-    "1. Identify the conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 6 * 5280 = 31680.\n<answer>31680</answer> feet."
+    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 6 * 5280 = 31680.\n<answer>31680</answer> feet."
   ],
   [
     "Express 5 mi as a quantity of yd.",
     8799.999999999998,
-    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 5 * 1760 = 8800.\n<answer>8800</answer> yards."
+    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 5 * 1760 = 8800.\n3. The answer is <answer>8800</answer> yards."
   ],
   [
     "What is the conversion from m/s to kmh for 1 units?",
     3.5999999999999996,
-    "1. Identify conversion factor: 1 meter/second = 3.6 kilometers/hour.\n2. Perform the calculation: 1 * 3.6 = 3.6.\n<answer>3.6</answer>"
+    "1. Identify the conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 1 * 3.6 = 3.6 km/h.\n<answer>3.6</answer> km/h."
+  ],
+  [
+    "Could you give the conversion from yd to mm for 5 units?",
+    4572.0,
+    "1. Identify conversion factor: 1 yard = 91.44 centimeters = 914.4 millimeters.\n2. Perform the calculation: 5 * 914.4 = 4572.\n<answer>4572</answer> millimeters."
   ],
   [
     "What is the equivalent of 2 ft in meter?",
     0.6096,
-    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 2 * 0.3048 = 0.6096 meters.\n<answer>0.6096</answer> meters."
+    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 2 * 0.3048 = 0.6096.\n<answer>0.6096</answer> meters."
   ],
   [
     "What is the equivalent of 1 pound in ounce?",
@@ -1507,32 +1722,42 @@
   [
     "Can you provide the conversion value from kg to g for 4 units?",
     4000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 4 * 1000 = 4000 grams.\n<answer>4000</answer> grams."
   ],
   [
     "How many decade make up 2 century?",
     20.0,
-    "1. Identify the conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 2 * 10 = 20.\n<answer>20</answer> decades."
+    "1. Identify conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 2 * 10 = 20.\n<answer>20</answer> decades."
+  ],
+  [
+    "What does 6 ft equal in yd terms?",
+    2.0,
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 6 / 3 = 2.\n<answer>2</answer> feet."
   ],
   [
     "How many meter make up 4 yd?",
     3.6576000000000004,
-    "1. Identify the conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 4 * 0.9144 = 3.6576 meters.\n<answer>3.6576</answer> meters."
+    "1. Identify conversion factor: 1 yard = 0.9144 meters.\n2. Perform the calculation: 4 * 0.9144 = 3.6576.\n<answer>3.6576</answer> meters."
+  ],
+  [
+    "How do we translate 2 M into KB?",
+    2000.0,
+    "1. Identify the conversion factor: 1 kilobit = 1000 bits.\n2. Perform the calculation: 2 * 1000 = 2000 bits.\n<answer>2000</answer> bits."
   ],
   [
     "How do we translate 5 kg into gram?",
     5000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000 grams.\n<answer>5000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000 grams.\n<answer>5000</answer> grams."
   ],
   [
     "Could you give the conversion from cm to in for 1 units?",
     0.39370078740157477,
-    "1. Identify conversion factor: 1 centimeter (cm) = 0.393701 inches (in).\n2. Perform the calculation: 1 * 0.393701 = 0.393701.\n<answer>0.393701</answer> inches."
+    "1. Identify conversion factor: 1 centimeter = 0.393701 inches.\n2. Perform the calculation: 1 * 0.393701 = 0.393701.\n<answer>0.393701</answer> inches."
   ],
   [
     "Could you convert 8 miles to its corresponding value in yd?",
     14079.999999999998,
-    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 8 * 1760 = 14080.\n3. The answer is <answer>14080</answer> yards."
+    "1. Identify the conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 8 * 1760 = 14080.\n<answer>14080</answer> yards."
   ],
   [
     "Could you give the conversion from ft to yd for 9 units?",
@@ -1540,14 +1765,19 @@
     "1. Identify conversion factor: 1 foot = 0.333333 yards.\n2. Perform the calculation: 9 * 0.333333 = 3.\n<answer>3</answer> yards."
   ],
   [
+    "How do we express 6 yd in terms of cm?",
+    548.6400000000001,
+    "1. Identify the conversion factor: 1 yard = 91.44 centimeters.\n2. Perform the calculation: 6 yards * 91.44 cm/yard = 548.64 cm.\n<answer>548.64</answer> centimeters."
+  ],
+  [
     "Could you provide the value of 4 kmh in mph?",
     2.4854847689493362,
-    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 4 * 0.621371 = 2.485484.\n<answer>2.485484</answer> mph."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert distance: 4 * 0.621371 = 2.485484.\n<answer>2.485484</answer> mph."
   ],
   [
     "What is the equivalent of 4 decades in months?",
     480.0,
-    "1. Identify conversion factor: 1 decade = 10 years.\n2. Convert years to months: 1 year = 12 months.\n3. Perform the calculation: 4 decades * 10 years * 12 months = 480 months.\n<answer>480</answer> months."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Identify the conversion factor: 1 year = 12 months.\n3. Perform the calculation: 4 * 10 * 12 = 480.\n<answer>480</answer> months."
   ],
   [
     "What is the equivalent of 5 hour in seconds?",
@@ -1557,47 +1787,57 @@
   [
     "How many cm is 10 yd?",
     914.4000000000001,
-    "1. Identify the conversion factor: 1 yard = 3 feet; 1 foot = 30.48 centimeters.\n2. Convert distance: 10 yards * (3 feet/yard) * (30.48 cm/foot) = 914.4 centimeters.\n<answer>914.4</answer> centimeters."
+    "1. Identify the conversion factor: 1 yard = 3 feet.\n2. Convert feet: 10 yards * 3 feet/yard = 30 feet.\n3. Convert feet: 30 feet * 30.48 cm/foot = 914.4 cm.\n<answer>914.4</answer> cm."
   ],
   [
     "Express 9 ft/s as a quantity of m/s.",
     2.7432000000000003,
-    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Convert distance: 9 ft * 0.3048 = 2.7432 m.\n3. Convert time: 2.7432 m / 1 s = 2.7432 m/s.\n<answer>2.7432</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Divide the distance by time: 9 ft / s * (0.3048 m / ft) = 2.7432.\n<answer>2.7432</answer> m/s."
+  ],
+  [
+    "What is the conversion of 2 mph to kmh?",
+    3.2186879999999998,
+    "1. Identify the conversion factor: 1 mile = 1.60934 kilometers.\n2. Convert time: 2 hours * 1.60934 = 3.21868 km.\n3. The answer is <answer>3.21868</answer> kilometers per hour."
   ],
   [
     "Convert 5 ft/s to in/s?",
     60.0,
-    "1. Identify conversion factor: 1 foot = 12 inches and 1 second = 1 second.\n2. Convert distance: 5 ft * 12 inches = 60 inches.\n3. Perform the calculation: 60 inches / 1 second = 60.\n<answer>60</answer> inches per second."
+    "1. Identify conversion factor: 1 foot = 12 inches.\n2. Perform the calculation: 5 ft/s * 12 in/ft = 60 in/s.\n<answer>60</answer> inches per second."
+  ],
+  [
+    "Convert 6 bit to B?",
+    0.75,
+    "1. Identify the conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 6 * 0.125 = 0.75.\n<answer>0.75</answer> B."
   ],
   [
     "What does 6 millilitre equal in mm^3 terms?",
     5999.999999999999,
-    "1. Identify conversion factor:1 milliliter = 1000 cubic millimeters.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> cubic millimeters."
+    "1. Identify conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Convert to cubic centimeters: 6 ml * 1 cm^3 = 6 cm^3.\n3. Convert to cubic millimeters: 6 cm^3 * 1000 = 6000 mm^3.\n<answer>6000</answer> mm^3."
   ],
   [
     "Could you convert 3 mi to its corresponding value in ft?",
     15840.0,
-    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 3 * 5280 = 15840.\n<answer>15840</answer> feet."
+    "1. Identify the conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 3 * 5280 = 15840.\n<answer>15840</answer> feet."
   ],
   [
     "Tell me how many min are there in 6 h.",
     360.0,
-    "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360 minutes.\n<answer>360</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 6 * 60 = 360 minutes.\n3. The answer is <answer>360</answer> minutes."
   ],
   [
     "Express 2 gallon as a quantity of liter.",
     7.5708235680000024,
-    "1. Identify conversion factor: 1 gallon = 3.78541 liters.\n2. Perform the calculation: 2 * 3.78541 = 7.57082.\n<answer>7.57082</answer> liters."
+    "1. Identify the conversion factor: 1 gallon = 3.78541 liters.\n2. Perform the calculation: 2 * 3.78541 = 7.57082.\n<answer>7.57082</answer> liters."
+  ],
+  [
+    "Tell me how many ounce are there in 10 l.",
+    338.14022701842987,
+    "1. Identify conversion factor: 1 liter = 33.8140227 ounces.\n2. Perform the calculation: 10 * 33.8140227 = 338.140227.\n<answer>338.140227</answer> ounces."
   ],
   [
     "Convert 3 millilitre to cm**3?",
     2.999999999999999,
-    "1. Identify the conversion factor: 1 milliliter = 1 cm3.\n2. Perform the calculation: 3 * 1 = 3.\n<answer>3</answer> cm3."
-  ],
-  [
-    "Can you change 1 MB to its equivalent in kB?",
-    1000.0,
-    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> kilobytes."
+    "1. Identify the conversion factor: 1 millilitre = 1 cubic centimeter.\n2. Perform the calculation: 3 millilitres * 1 cubic centimeter = 3 cubic centimeters.\n<answer>3</answer> cubic centimeters."
   ],
   [
     "Could you provide the value of 10 ft in meter?",
@@ -1605,14 +1845,14 @@
     "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 10 * 0.3048 = 3.048 meters.\n<answer>3.048</answer> meters."
   ],
   [
-    "Can you provide the conversion value from liter to ounce for 7 units?",
-    236.6981589129009,
-    "1. Identify the conversion factor: 1 liter = 33.8140227 US fluid ounces.\n2. Perform the calculation: 7 * 33.8140227 = 236.6981559.\n<answer>236.6981559</answer> ounces."
+    "Convert 2 MB to KB?",
+    2000.0,
+    "1. Identify the conversion factor: 1 megabyte = 1000 kilobytes.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> KB."
   ],
   [
     "Could you give the conversion from byte to bit for 2 units?",
     16.0,
-    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 = 16.\n3. The answer is <answer>16</answer> bits."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 2 * 8 = 16.\n<answer>16</answer> bits."
   ],
   [
     "How many gram make up 5 kg?",
@@ -1620,24 +1860,34 @@
     "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000 grams.\n<answer>5000</answer> grams."
   ],
   [
+    "What is the equivalent of 8 ft in yd?",
+    2.6666666666666665,
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 8 / 3 = 2.66667.\n<answer>2.66667</answer> yards."
+  ],
+  [
     "Convert the measurement of 10 L into cm^3.",
     9999.999999999998,
-    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 10 * 1000 = 10000 cubic centimeters.\n3. The answer is <answer>10000</answer> cubic centimeters."
+    "1. Identify conversion factor: 1 liter = 1000 cm^3.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> cm^3."
   ],
   [
     "What is the measurement of 8 ft/s when converted into m/s?",
     2.4384,
-    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Convert speed: 8 ft/s * 0.3048 = 2.4384.\n<answer>2.4384</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Convert distance: 8 * 0.3048 = 2.4384 meters.\n3. Convert speed: 2.4384 meters / 1 second = 2.4384 m/s.\n<answer>2.4384</answer> m/s."
+  ],
+  [
+    "What is 10 KB in byte?",
+    10000.0,
+    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 10 * 1000 = 10000 bytes.\n<answer>10000</answer> bytes."
   ],
   [
     "How many sec is 6 hours?",
     21600.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 6 * 3600 = 21600 seconds.\n<answer>21600</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 6 * 3600 = 21600.\n<answer>21600</answer> seconds."
   ],
   [
     "What is 5 liter in cm**3?",
     4999.999999999999,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters (cm**3).\n2. Perform the calculation: 5 * 1000 = 5000 cm**3.\n<answer>5000</answer> cm**3."
+    "1. Identify the conversion factor: 1 liter = 1000 cm3.\n2. Perform the calculation: 5 * 1000 = 5000 cm3.\n<answer>5000</answer> cm3."
   ],
   [
     "How does 3 miles measure up in terms of yd?",
@@ -1647,42 +1897,42 @@
   [
     "How do we express 4 B in terms of bit?",
     32.0,
-    "1. Identify the conversion factor: 1 byte (B) = 8 bits (b).\n2. Perform the calculation: 4 * 8 = 32 bits.\n<answer>32</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 bytes * 8 = 32 bits.\n<answer>32</answer> bits."
   ],
   [
     "What is the measurement of 9 tonne when converted into kg?",
     9000.0,
-    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 9 * 1000 = 9000 kilograms.\n<answer>9000</answer> kilograms."
+    "1. Identify conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> kg."
   ],
   [
     "Please convert 3 km into miles.",
     1.8641135767120018,
-    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 3 * 0.621371 = 1.864113.\n<answer>1.864113</answer> miles."
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 3 * 0.621371 = 1.864113.\n<answer>1.864113</answer> miles."
   ],
   [
     "Could you give the conversion from ft to cm for 10 units?",
     304.8,
-    "1. Identify the conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 10 * 30.48 = 304.8.\n<answer>304.8</answer> cm."
+    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 10 * 30.48 = 304.8.\n<answer>304.8</answer> centimeters."
   ],
   [
     "Convert the measurement of 4 days into hour.",
     96.0,
-    "1. Identify conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 4 * 24 = 96.\n<answer>96</answer> hours."
+    "1. Identify the conversion factor: 1 day = 24 hours.\n2. Perform the calculation: 4 * 24 = 96.\n<answer>96</answer> hours."
   ],
   [
     "Please convert 6 bit into byte.",
     0.75,
-    "1. Identify the conversion factor: 1 bit = 0.125 bytes.\n2. Perform the calculation: 6 * 0.125 = 0.75.\n<answer>0.75</answer> bytes."
+    "1. Identify conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 6 * 0.125 = 0.75.\n<answer>0.75</answer> bytes."
   ],
   [
     "How many cm**3 is 7 millilitre?",
     6.999999999999998,
-    "1. Identify conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Perform the calculation: 7 * 1 = 7 cubic centimeters.\n<answer>7</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 milliliter = 1 cm^3.\n2. Perform the calculation: 7 * 1 = 7.\n<answer>7</answer> cm^3."
   ],
   [
     "Could you convert 6 cm**3 to its corresponding value in mL?",
     6.000000000000002,
-    "1. Identify conversion factor: 1 cm^3 = 1 mL.\n2. Perform the calculation: 6 * 1 = 6.\n<answer>6</answer> mL."
+    "1. Identify conversion factor: 1 cm^3 = 1 mL.\n2. Perform the calculation: 6 * 1 = 6 mL.\n<answer>6</answer> mL."
   ],
   [
     "What is the measurement of 2 mi when converted into ft?",
@@ -1690,44 +1940,49 @@
     "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 2 * 5280 = 10560.\n<answer>10560</answer> feet."
   ],
   [
-    "How many m is 7 km?",
-    7000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000.\n3. The answer is <answer>7000</answer> meters."
+    "Express 2 kB as a quantity of B.",
+    2000.0,
+    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> bytes."
   ],
   [
-    "What is the measurement of 8 mph when converted into m/s?",
-    3.57632,
-    "1. Identify conversion factor: 1 mph = 0.44704 m/s.\n2. Perform the calculation: 8 * 0.44704 = 3.57632.\n<answer>3.57632</answer> m/s."
+    "How many m is 7 km?",
+    7000.0,
+    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> meters."
   ],
   [
     "How many month are there per 5 decades?",
     600.0,
-    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Calculate the number of years: 5 decades * 10 years = 50 years.\n3. Convert years to months: 50 years * 12 months/year = 600 months.\n<answer>600</answer> months."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Calculate the number of years in 5 decades: 5 * 10 = 50 years.\n3. Convert years to months: 50 years * 12 months/year = 600 months.\n<answer>600</answer> months."
   ],
   [
     "What is the measurement of 5 min when converted into sec?",
     300.0,
-    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 5 * 60 = 300.\n<answer>300</answer> seconds."
+    "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 5 * 60 = 300.\n<answer>300</answer> seconds."
   ],
   [
     "What is the equivalent of 8 ton in kg?",
     8000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 8 * 1000 = 8000 kilograms.\n<answer>8000</answer> kilograms."
+    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> kilograms."
   ],
   [
     "Convert the measurement of 2 kg into g.",
     2000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 2 * 1000 = 2000 grams.\n<answer>2000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> grams."
+  ],
+  [
+    "What is 9 bit in B?",
+    1.125,
+    "1. Identify the conversion factor: 1 bit = 0.125 byte.\n2. Perform the calculation: 9 * 0.125 = 1.125.\n<answer>1.125</answer> bytes."
   ],
   [
     "How does 7 in measure up in terms of mm?",
     177.8,
-    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 7 * 25.4 = 177.8 millimeters.\n<answer>177.8</answer> mm."
+    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 7 * 25.4 = 177.8.\n<answer>177.8</answer> millimeters."
   ],
   [
     "What is the equivalent of 10 kg in gram?",
     10000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> grams."
   ],
   [
     "How do we translate 5 tonne into kg?",
@@ -1742,27 +1997,27 @@
   [
     "How many cm are there per 2 meter?",
     200.0,
-    "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 2 * 100 = 200.\n3. The answer is <answer>200</answer> centimeters."
+    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 2 * 100 = 200.\n<answer>200</answer> centimeters."
   ],
   [
     "What is the conversion from km/h to m/s for 10 units?",
     2.7777777777777777,
-    "1. Identify conversion factor: 1 km/h = 0.277778 m/s.\n2. Perform the calculation: 10 * 0.277778 = 2.77778.\n<answer>2.77778</answer> m/s."
+    "1. Identify the conversion factor: 1 kilometer = 1000 meters and 1 hour = 3600 seconds.\n2. Perform the calculation: 10 * (1000 / 3600) = 10 * 0.277778 = 2.77778.\n3. The answer is <answer>2.77778</answer> m/s."
   ],
   [
     "Tell me how many ml are there in 8 L.",
     8000.000000000001,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 8 * 1000 = 8000 ml.\n<answer>8000</answer> ml."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 8 * 1000 = 8000 milliliters.\n<answer>8000</answer> milliliters."
   ],
   [
     "What is the equivalent of 1 pound in kg?",
     0.45359237,
-    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 1 * 0.453592 = 0.453592.\n<answer>0.453592</answer> kg."
+    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 1 * 0.453592 = 0.453592.\n<answer>0.453592</answer> kilograms."
   ],
   [
-    "Can you change 7 KB to its equivalent in byte?",
-    7000.0,
-    "1. Identify conversion factor: 1 KB = 1000 Bytes.\n2. Perform the calculation: 7 * 1000 = 7000 Bytes.\n<answer>7000</answer> bytes."
+    "What does 3 cm equal in in terms?",
+    1.1811023622047243,
+    "1. Identify the conversion factor: 1 centimeter = 0.393701 inches.\n2. Perform the calculation: 3 * 0.393701 = 1.181103.\n<answer>1.181103</answer> inches."
   ],
   [
     "What is the conversion from ft to meter for 9 units?",
@@ -1772,32 +2027,37 @@
   [
     "What is the measurement of 10 km when converted into mi?",
     6.2137119223733395,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> miles."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 10 * 0.621371 = 6.21371.\n<answer>6.21371</answer> miles."
   ],
   [
     "How much is 4 week when converted to hour?",
     672.0,
-    "1. Identify the conversion factor: 1 week = 7 days.\n2. Convert days to hours: 7 days * 24 hours = 168 hours.\n3. Perform the calculation: 4 weeks * 168 hours = 672 hours.\n<answer>672</answer> hours."
+    "1. Identify the conversion factor: 1 week = 7 days * 24 hours = 168 hours.\n2. Perform the calculation: 4 * 168 = 672.\n<answer>672</answer> hours."
+  ],
+  [
+    "What does 4 GB equal in M terms?",
+    4000.0,
+    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> MB."
   ],
   [
     "Tell me how many fluid ounce are there in 2 l.",
     67.62804540368597,
-    "1. Identify the conversion factor: 1 liter = 33.81402 fluid ounces.\n2. Perform the calculation: 2 * 33.81402 = 67.62804.\n<answer>67.62804</answer> fluid ounces."
-  ],
-  [
-    "Convert the measurement of 6 G into MB.",
-    6000.0,
-    "1. Identify the conversion factor: 1 gigabyte (GB) = 1000 megabytes (MB).\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> MB."
+    "1. Identify conversion factor: 1 liter = 33.8140227 ounces.\n2. Perform the calculation: 2 * 33.8140227 = 67.6280454.\n<answer>67.6280454</answer> fluid ounces."
   ],
   [
     "How many g are there per 5 kg?",
     5000.0,
-    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000.\n3. <answer>5000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> grams."
+  ],
+  [
+    "How many s make up 1 h?",
+    3600.0,
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 1 h * 3600 s = 3600 s.\n3. The answer is <answer>3600</answer> seconds."
   ],
   [
     "How do we express 7 km in terms of m?",
     7000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> meters."
+    "1. Identify conversion factor: 1 km = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000 meters.\n<answer>7000</answer> meters."
   ],
   [
     "What is the measurement of 10 km when converted into miles?",
@@ -1807,12 +2067,12 @@
   [
     "What does 8 kg equal in gram terms?",
     8000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> grams."
+    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 8 * 1000 = 8000 grams.\n<answer>8000</answer> grams."
   ],
   [
     "What does 1 yd equal in ft terms?",
     3.0,
-    "1. Identify the conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 1 yard * 3 = 3 feet.\n<answer>3</answer>"
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 1 yard * 3 = 3 feet.\n<answer>3</answer>"
   ],
   [
     "How many cm are there per 6 m?",
@@ -1820,14 +2080,24 @@
     "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 6 * 100 = 600.\n<answer>600</answer> centimeters."
   ],
   [
+    "How do we express 9 yd in terms of in?",
+    324.0,
+    "1. Convert yards to feet: 1 yard = 3 feet.\n2. Perform the calculation: 9 yards * 3 = 27 feet.\n3. Convert feet to inches: 1 foot = 12 inches.\n4. Perform the calculation: 27 feet * 12 = 324 inches.\n<answer>324</answer> inches is the equivalent."
+  ],
+  [
     "Express 5 pound as a quantity of kg.",
     2.2679618500000003,
-    "1. Identify conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 5 * 0.453592 = 2.26796.\n<answer>2.26796</answer> kg."
+    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 5 * 0.453592 = 2.26796 kg.\n<answer>2.26796</answer> kg."
+  ],
+  [
+    "How does 10 yd measure up in terms of mm?",
+    9144.0,
+    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Convert distance: 10 yards * 91.44 = 914.4 centimeters.\n3. Convert centimeters to millimeters: 914.4 centimeters * 10 mm/cm = 9144 mm.\n<answer>9144</answer> mm."
   ],
   [
     "What is the conversion from m/s to km/h for 2 units?",
     7.199999999999999,
-    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 2 * 3.6 = 7.2.\n<answer>7.2</answer> km/h."
+    "1. Identify conversion factor: 1 m/s = 3.6 km/h.\n2. Perform the calculation: 2 * 3.6 = 7.2 km/h.\n<answer>7.2</answer> km/h."
   ],
   [
     "Please convert 5 kg into g.",
@@ -1837,32 +2107,32 @@
   [
     "How does 6 cc measure up in terms of mm**3?",
     6000.000000000001,
-    "1. Identify conversion factor: 1 cc = 1 mL.\n2. Convert to cubic centimeters: 6 * 1 = 6 cubic centimeters.\n3. Convert to mm**3: 6 cubic centimeters * 1000 mm**3/mL = 6000 mm**3.\n<answer>6000</answer> mm<sup>3</sup>."
+    "1. Identify the conversion factor: 1 cc = 1 mL = 1 cm^3 = 1000 mm^3.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> mm^3."
   ],
   [
     "Please convert 5 l into milliliter.",
     5000.000000000001,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 5 * 1000 = 5000 milliliters.\n<answer>5000</answer> milliliters."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> milliliters."
   ],
   [
     "What is the measurement of 2 M when converted into KB?",
     2000.0,
-    "1. Identify the conversion factors: 1 M = 1000 KB.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> KB."
+    "1. Identify the conversion factor: 1 megabyte (MB) = 1000 kilobytes (KB).\n2. Perform the calculation: 2 * 1000 = 2000 KB.\n3. The answer is <answer>2000</answer> KB."
   ],
   [
     "Could you convert 9 ft to its corresponding value in meter?",
     2.7432000000000003,
-    "1. Convert 1 foot to meters: 1 ft = 0.3048 m.\n2. Multiply by 9: 9 ft * 0.3048 m/ft = 2.7432 m.\n<answer>2.7432</answer> meters."
+    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 9 * 0.3048 = 2.7432.\n<answer>2.7432</answer> meters."
   ],
   [
     "Can you change 9 kB to its equivalent in B?",
     9000.0,
-    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
+    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
   ],
   [
     "Express 5 km as a quantity of mi.",
     3.1068559611866697,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 5 * 0.621371 = 3.106855.\n<answer>3.106855</answer> miles."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 5 * 0.621371 = 3.106855.\n<answer>3.106855</answer> miles."
   ],
   [
     "Could you convert 1 quart to its corresponding value in fluid ounce?",
@@ -1870,14 +2140,24 @@
     "1. Identify conversion factor: 1 quart = 32 fluid ounces.\n2. Perform the calculation: 1 * 32 = 32.\n<answer>32</answer> fluid ounces."
   ],
   [
+    "How many in make up 7 yd?",
+    252.0,
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 7 * 3 = 21 feet.\n3. Convert feet to inches: 21 feet * 12 inches/foot = 252 inches.\n<answer>252</answer> inches."
+  ],
+  [
     "Could you provide the value of 4 miles in ft?",
     21120.0,
     "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 4 * 5280 = 21120.\n<answer>21120</answer> feet."
   ],
   [
+    "Could you convert 1 bit to its corresponding value in B?",
+    0.125,
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 1 / 8 = 0.125.\n3. The answer is <answer>0.125</answer> B."
+  ],
+  [
     "Could you give the conversion from ton to kg for 5 units?",
     5000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> kilograms."
+    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> kilograms."
   ],
   [
     "What is the equivalent of 5 gallon in l?",
@@ -1887,7 +2167,12 @@
   [
     "Can you provide the conversion value from KB to bit for 1 units?",
     8000.0,
-    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Identify conversion factor for bytes: 1 byte = 8 bits.\n3. Perform the calculation: 1 * 1000 * 8 = 8000.\n<answer>8000</answer> bits."
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Convert bytes to bits: 1 byte * 8 = 8 bits.\n3. Perform the calculation: 1000 * 8 = 8000.\n<answer>8000</answer> bits."
+  ],
+  [
+    "Could you give the conversion from km/h to m/s for 8 units?",
+    2.2222222222222223,
+    "1. Identify conversion factor: 1 km/h = 0.277778 m/s.\n2. Perform the calculation: 8 * 0.277778 = 2.222224.\n<answer>2.222224</answer> m/s."
   ],
   [
     "Convert 1 days to minute?",
@@ -1897,7 +2182,17 @@
   [
     "What does 2 h equal in s terms?",
     7200.0,
-    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
+  ],
+  [
+    "What is the equivalent of 5 century in decades?",
+    50.0,
+    "1. Identify conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 5 * 10 = 50.\n<answer>50</answer> decades."
+  ],
+  [
+    "Could you provide the value of 5 GB in M?",
+    5000.0,
+    "1. Identify the conversion factor: 1 gigabyte (GB) = 1000 megabytes (M).\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> megabytes."
   ],
   [
     "Could you give the conversion from kg to pound for 1 units?",
@@ -1907,27 +2202,27 @@
   [
     "Express 3 ton as a quantity of kg.",
     3000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 3 * 1000 = 3000 kg.\n<answer>3000</answer> kg."
+    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> kilograms."
   ],
   [
     "How do we express 4 GB in terms of MB?",
     4000.0,
-    "1. Identify the conversion factor: 1 gigabyte (GB) = 1000 megabytes (MB).\n2. Perform the calculation: 4 GB * 1000 = 4000 MB.\n<answer>4000</answer> MB."
+    "1. Identify the conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> MB."
   ],
   [
     "How many mm are there per 8 ft?",
     2438.4,
-    "1. Identify conversion factor: 1 foot = 304.8 millimeters.\n2. Perform the calculation: 8 * 304.8 = 2438.4.\n<answer>2438.4</answer> millimeters."
+    "1. Identify conversion factor: 1 foot = 304.8 millimeters.\n2. Perform the calculation: 8 ft * 304.8 mm/ft = 2438.4 mm.\n<answer>2438.4</answer> mm."
   ],
   [
     "How much is 5 kB when converted to B?",
     5000.0,
-    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> Bytes."
+    "1. Identify conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> bytes."
   ],
   [
     "How do we translate 1 ft into yd?",
     0.3333333333333333,
-    "1. Identify the conversion factor: 1 yard = 3 feet.\n2. Divide the distance by the conversion factor: 1 / 3 = 0.333333.\n<answer>0.333333</answer> yd."
+    "1. Identify conversion factor: 1 yard = 3 feet.\n2. Perform the calculation: 1 ft / 3 = 0.333333.\n<answer>0.333333</answer> yd."
   ],
   [
     "What is the conversion from ft to meter for 2 units?",
@@ -1935,9 +2230,14 @@
     "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 2 * 0.3048 = 0.6096.\n<answer>0.6096</answer> meters."
   ],
   [
+    "What is the equivalent of 4 G in MB?",
+    4000.0,
+    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> MB."
+  ],
+  [
     "Could you provide the value of 4 B in bit?",
     32.0,
-    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 4 * 8 = 32.\nThe answer is <answer>32</answer> bits."
+    "1. Identify the conversion factor: 1 byte (B) = 8 bits.\n2. Perform the calculation: 4 * 8 = 32.\n<answer>32</answer> bits."
   ],
   [
     "How do we translate 8 hour into minute?",
@@ -1945,39 +2245,54 @@
     "1. Identify conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 8 * 60 = 480.\n<answer>480</answer> minutes."
   ],
   [
-    "How many MB make up 1 GB?",
-    1000.0,
-    "1. Identify conversion factor: 1 gigabyte (GB) = 1000 megabytes (MB).\n2. Perform the calculation: 1 GB * 1000 MB = 1000 MB.\n<answer>1000</answer> MB."
-  ],
-  [
     "How do we express 1 ft in terms of cm?",
     30.48,
-    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 * 30.48 = 30.48.\n<answer>30.48</answer> centimeters."
+    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 1 ft * 30.48 = 30.48 cm.\n<answer>30.48</answer> centimeters."
   ],
   [
     "Convert 7 century to decade?",
     70.0,
-    "1. Identify the conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 7 * 10 = 70.\n<answer>70</answer> decades."
+    "1. Identify conversion factor: 1 century = 10 decades.\n2. Perform the calculation: 7 * 10 = 70.\n<answer>70</answer> decades."
+  ],
+  [
+    "How many ml is 6 cm^3?",
+    6.000000000000002,
+    "1. Identify the conversion factor: 1 cubic centimeter = 1 milliliter.\n2. Perform the calculation: 6 cm^3 * 1 ml/cm^3 = 6 ml.\n<answer>6</answer> ml."
+  ],
+  [
+    "Convert the measurement of 1 m/s into mi/h.",
+    2.2369362920544025,
+    "1. Identify conversion factor: 1 mile = 1609.34 meters.\n2. Identify conversion factor: 1 hour = 3600 seconds.\n3. Perform the calculation: 1 m/s * (1609.34 meters / 1 mile) * (1 hour / 3600 seconds) = 2.23694.\n<answer>2.23694</answer> miles per hour."
   ],
   [
     "Can you provide the conversion value from cm^3 to mL for 6 units?",
     6.000000000000002,
-    "1. Identify the conversion factor: 1 cm^3 = 1 mL.\n2. Perform the calculation: 6 * 1 = 6.\n<answer>6</answer> mL."
+    "1. Identify conversion factor: 1 cm^3 = 1 mL.\n2. Perform the calculation: 6 * 1 = 6.\n3. The answer is <answer>6</answer> mL."
+  ],
+  [
+    "What is the equivalent of 1 pint in cm^3?",
+    473.1764730000001,
+    "1. Identify conversion factor: 1 pint = 473.176473 cubic centimeters.\n2. Perform the calculation: 473.176473 cubic centimeters.\n<answer>473.176473</answer> cm^3."
   ],
   [
     "Can you change 3 byte to its equivalent in bit?",
     24.0,
-    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 3 * 8 = 24.\n<answer>24</answer> bits."
+    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 3 * 8 = 24 bits.\n<answer>24</answer> bits."
   ],
   [
     "Could you convert 4 litre to its corresponding value in milliliter?",
     4000.0000000000005,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> milliliters."
   ],
   [
     "What is 9 km/h in mi/h?",
     5.592340730136007,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Perform the calculation: 9 * 0.621371 = 5.592339.\n<answer>5.592339</answer> miles/hour."
+    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert the kilometers: 9 km * 0.621371 = 5.592339 miles.\n<answer>5.592339</answer> miles/hour."
+  ],
+  [
+    "What is the measurement of 6 milliliter when converted into mm**3?",
+    5999.999999999999,
+    "1. Identify the conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Convert cubic centimeters to cubic millimeters: 1 cm^3 = 1000 mm^3.\n3. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> mm<sup>3</sup>."
   ],
   [
     "How do we translate 3 in into cm?",
@@ -1987,7 +2302,7 @@
   [
     "Express 5 centuries as a quantity of years.",
     500.0,
-    "1. Identify conversion factor: 1 century = 100 years.\n2. Perform the calculation: 5 * 100 = 500.\n<answer>500</answer> years."
+    "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 5 * 100 = 500 years.\n<answer>500</answer> years."
   ],
   [
     "How much is 3 gallon when converted to l?",
@@ -1997,37 +2312,37 @@
   [
     "What does 8 kg equal in g terms?",
     8000.0,
-    "1. Identify conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> grams."
+    "1. Identify the conversion factor: 1 kilogram = 1000 grams.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> grams."
   ],
   [
     "Could you convert 5 km/h to its corresponding value in mi/h?",
     3.10685596118667,
-    "1. Identify the conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert 1 km/h to miles/h: 5 * 0.621371 = 3.106855.\n3. The answer is <answer>3.106855</answer> miles/h."
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Calculate the conversion: 5 * 0.621371 = 3.106855.\n<answer>3.106855</answer> miles per hour."
   ],
   [
     "Can you provide the conversion value from mi/h to m/s for 1 units?",
     0.44704,
-    "1. Identify the conversion factor: 1 mile = 1609.34 meters; 1 hour = 3600 seconds.\n2. Convert distance: 1 mile * 1609.34 = 1609.34 meters.\n3. Convert time: 1 hour * 3600 seconds = 3600 seconds.\n4. Divide distance by time: 1609.34 / 3600 = 0.44704.\n<answer>0.44704</answer> m/s."
+    "1. Identify conversion factor: 1 mile = 1609.34 meters; 1 hour = 3600 seconds.\n2. Convert distance: 1 mile * 1609.34 = 1609.34 meters.\n3. Convert time: 1 hour * 3600 seconds = 3600 seconds.\n4. Perform the calculation: 1609.34 meters / 3600 seconds = 0.44704.\n<answer>0.44704</answer> m/s."
   ],
   [
     "How many cm**3 make up 4 litre?",
     3999.9999999999995,
-    "1. Identify conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 4 * 1000 = 4000.\n<answer>4000</answer> cubic centimeters."
+    "1. Identify the conversion factor: 1 liter = 1000 cubic centimeters.\n2. Perform the calculation: 4 liters * 1000 = 4000 cubic centimeters.\n<answer>4000</answer> cubic centimeters."
   ],
   [
     "What is 6 cm^3 in ml?",
     6.000000000000002,
-    "1. Identify conversion factor: 1 cm^3 = 1 ml.\n2. Perform the calculation: 6 * 1 = 6 ml.\n<answer>6</answer> ml."
+    "1. Identify the conversion factor: 1 cm^3 = 1 ml.\n2. Perform the calculation: 6 * 1 = 6.\n<answer>6</answer> ml."
   ],
   [
     "How many cm**3 are there per 8 ml?",
     7.999999999999998,
-    "1. Convert milliliters to cubic centimeters: 1 ml = 1 cm3.\n2. Perform the calculation: 8 ml * 1 cm3 = 8 cm3.\n3. <answer>8</answer> cm3."
+    "1. Identify the conversion factor: 1 milliliter = 1 cubic centimeter.\n2. Perform the calculation: 8 * 1 = 8.\n<answer>8</answer> cubic centimeters."
   ],
   [
     "What is 2 litre in millilitre?",
     2000.0000000000002,
-    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> milliliters."
   ],
   [
     "Convert 1 kg to pound?",
@@ -2037,12 +2352,7 @@
   [
     "Can you change 2 decades to its equivalent in years?",
     20.0,
-    "1. Identify conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 2 * 10 = 20 years.\n<answer>20</answer> years."
-  ],
-  [
-    "Express 8 cm as a quantity of in.",
-    3.149606299212598,
-    "1. Identify conversion factor: 1 cm = 0.3937 inches.\n2. Perform the calculation: 8 * 0.3937 = 3.1496.\n<answer>3.1496</answer> inches."
+    "1. Identify the conversion factor: 1 decade = 10 years.\n2. Perform the calculation: 2 * 10 = 20.\n<answer>20</answer> years."
   ],
   [
     "What is the measurement of 2 mi when converted into ft?",
@@ -2057,7 +2367,7 @@
   [
     "Could you convert 9 L to its corresponding value in millilitre?",
     9000.000000000002,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> milliliters."
+    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 9 * 1000 = 9000 milliliters.\n<answer>9000</answer> milliliters."
   ],
   [
     "How many kg make up 6 pound?",
@@ -2067,22 +2377,32 @@
   [
     "Convert the measurement of 1 h into seconds.",
     3600.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 1 * 3600 = 3600.\n3. The answer is <answer>3600</answer> seconds."
+    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 1 * 3600 = 3600.\n<answer>3600</answer> seconds."
+  ],
+  [
+    "Please convert 1 MB into kB.",
+    1000.0,
+    "1. Identify the conversion factor: 1 megabyte = 1000 kilobytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n3. The answer is <answer>1000</answer> kilobytes."
   ],
   [
     "What is the conversion of 3 kB to byte?",
     3000.0,
-    "1. Identify the conversion factor: 1 kilobyte (kB) = 1000 bytes.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> bytes."
+    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 3 * 1000 = 3000.\n<answer>3000</answer> bytes."
   ],
   [
     "Could you convert 6 min to its corresponding value in second?",
     360.0,
-    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 6 * 60 = 360.\n3. The answer is <answer>360</answer> seconds."
+    "1. Identify the conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 6 * 60 = 360.\n3. <answer>360</answer> seconds."
   ],
   [
     "What does 9 meter equal in cm terms?",
     900.0,
     "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 9 * 100 = 900.\n<answer>900</answer> centimeters."
+  ],
+  [
+    "Can you change 5 cm**3 to its equivalent in mm^3?",
+    5000.000000000001,
+    "1. Identify conversion factor: 1 cm = 10 mm.\n2. Cube the factor for volume: (10 mm)^3 = 1000 mm^3.\n3. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> mm^3."
   ],
   [
     "Can you change 7 mi to its equivalent in ft?",
@@ -2095,24 +2415,29 @@
     "1. Identify the conversion factor: 1 century = 100 years.\n2. Perform the calculation: 5 * 100 = 500 years.\n<answer>500</answer> years."
   ],
   [
+    "Could you give the conversion from kB to B for 9 units?",
+    9000.0,
+    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
+  ],
+  [
     "What is the equivalent of 9 kB in byte?",
     9000.0,
-    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
+    "1. Identify conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
   ],
   [
     "Convert 10 byte to bit?",
     80.0,
-    "1. Identify the conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 * 8 = 80.\n<answer>80</answer> bits."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 10 * 8 = 80.\n<answer>80</answer> bits."
   ],
   [
     "What is the equivalent of 1 metric ton in kg?",
     1000.0,
-    "1. Identify conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kilograms."
+    "1. Identify the conversion factor: 1 metric ton (t) = 1000 kilograms (kg).\n2. Perform the calculation: 1 * 1000 = 1000 kg.\n<answer>1000</answer> kg."
   ],
   [
     "What is the equivalent of 3 m in ft?",
     9.842519685039369,
-    "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 3 * 3.28084 = 9.84252.\n<answer>9.84252</answer> feet"
+    "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 3 * 3.28084 = 9.84252.\n<answer>9.84252</answer> feet."
   ],
   [
     "What is the equivalent of 6 years in month?",
@@ -2122,17 +2447,22 @@
   [
     "How much is 1 ft/s when converted to m/s?",
     0.3048,
-    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Perform the calculation: 1 ft/s * 0.3048 = 0.3048 m/s.\n<answer>0.3048</answer> m/s."
+    "1. Identify the conversion factor: 1 foot = 0.3048 meters.\n2. Convert the unit: 1 ft/s * 0.3048 = 0.3048 m/s.\n<answer>0.3048</answer> m/s."
   ],
   [
     "Can you provide the conversion value from ton to kg for 1 units?",
     1000.0,
-    "1. Identify conversion factor: 1 ton = 1000 kg.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kg."
+    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kilograms."
+  ],
+  [
+    "Could you provide the value of 7 M in KB?",
+    7000.0,
+    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> kilobytes."
   ],
   [
     "How many byte make up 7 kB?",
     7000.0,
-    "1. Identify the conversion factor: 1 kilobyte (KB) = 1000 bytes.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> bytes."
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> bytes."
   ],
   [
     "What is 3 minute in s?",
@@ -2142,37 +2472,37 @@
   [
     "Express 6 ft as a quantity of cm.",
     182.88,
-    "1. Identify conversion factor: 1 foot = 30.48 centimeters.\n2. Perform the calculation: 6 * 30.48 = 182.88.\n<answer>182.88</answer> centimeters."
+    "1. Identify conversion factor: 1 foot = 30.48 cm.\n2. Perform the calculation: 6 * 30.48 = 182.88.\n<answer>182.88</answer> cm."
   ],
   [
     "Could you convert 10 m/s to its corresponding value in ft/s?",
     32.80839895013123,
-    "1. Identify the conversion factor: 1 meter/second = 3.28084 feet/second.\n2. Perform the calculation: 10 * 3.28084 = 32.8084.\n<answer>32.8084</answer> feet/second."
+    "1. Identify conversion factor: 1 meter = 3.28084 feet.\n2. Convert speed: 10 m/s * 3.28084 = 32.8084 feet/s.\n<answer>32.8084</answer> feet/s."
   ],
   [
     "Tell me how many bit are there in 1 B.",
     8.0,
-    "1. Identify the conversion factor: 1 byte (B) = 8 bits.\n2. Perform the calculation: 1 * 8 = 8.\n<answer>8</answer> bits."
+    "1. Identify conversion factor: 1 bit = 8 bytes.\n2. Perform the calculation: 1 * 8 = 8.\n<answer>8</answer> bits."
   ],
   [
     "Convert 10 metric ton to kg?",
     10000.0,
-    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> kilograms."
+    "1. Identify the conversion factor: 1 metric ton = 1000 kilograms.\n2. Perform the calculation: 10 * 1000 = 10000.\n3. The answer is <answer>10000</answer> kilograms."
   ],
   [
-    "Could you give the conversion from ft to yd for 4 units?",
-    1.3333333333333333,
-    "1. Identify the conversion factor: 1 foot = 0.333333 yards.\n2. Perform the calculation: 4 * 0.333333 = 1.33333.\n<answer>1.33333</answer> yards."
+    "How does 7 KB measure up in terms of bit?",
+    56000.0,
+    "1. Identify conversion factors: 1 kilobyte (KB) = 1000 bytes; 1 byte = 8 bits.\n2. Convert data: 7 KB * 1000 = 7000 bytes.\n3. Convert bits: 7000 bytes * 8 bits/byte = 56000 bits.\n<answer>56000</answer> bits."
   ],
   [
     "What is the equivalent of 8 in in cm?",
     20.32,
-    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32.\n<answer>20.32</answer> centimeters."
+    "1. Identify conversion factor: 1 inch = 2.54 centimeters.\n2. Perform the calculation: 8 * 2.54 = 20.32 centimeters.\n<answer>20.32</answer> centimeters."
   ],
   [
     "Please convert 1 pound into ounce.",
     16.0,
-    "1. Identify conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 1 * 16 = 16.\n<answer>16</answer> ounces."
+    "1. Identify the conversion factor: 1 pound = 16 ounces.\n2. Perform the calculation: 1 * 16 = 16.\n<answer>16</answer> ounces."
   ],
   [
     "Please convert 2 yd into m.",
@@ -2187,17 +2517,17 @@
   [
     "Tell me how many m are there in 7 km.",
     7000.0,
-    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000.\n3. The answer is <answer>7000</answer> meters."
+    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 7 * 1000 = 7000.\n<answer>7000</answer> meters."
   ],
   [
     "How do we translate 2 pound into kg?",
     0.90718474,
-    "1. Identify the conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 2 * 0.453592 = 0.907184.\n<answer>0.907184</answer> kg."
+    "1. Identify conversion factor: 1 pound = 0.453592 kilograms.\n2. Perform the calculation: 2 * 0.453592 = 0.907184.\n<answer>0.907184</answer> kilograms."
   ],
   [
     "What is the conversion from meter to mm for 2 units?",
     2000.0,
-    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> millimeters."
+    "1. Identify conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 2 * 1000 = 2000.\n<answer>2000</answer> mm."
   ],
   [
     "How many ft is 7 miles?",
@@ -2207,47 +2537,47 @@
   [
     "What does 4 ton equal in kg terms?",
     4000.0,
-    "1. Identify the conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 4 * 1000 = 4000 kilograms.\n<answer>4000</answer> kilograms."
+    "1. Identify conversion factor: 1 ton = 1000 kilograms.\n2. Perform the calculation: 4 * 1000 = 4000 kilograms.\n<answer>4000</answer> kilograms."
   ],
   [
     "What does 7 meter equal in cm terms?",
     700.0,
-    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 7 * 100 = 700.\n<answer>700</answer> centimeters."
+    "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 7 * 100 = 700.\n<answer>700</answer> centimeters."
   ],
   [
     "Tell me how many yd are there in 10 miles.",
     17599.999999999996,
-    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 10 * 1760 = 17600.\n3. The answer is <answer>17600</answer> yards."
+    "1. Identify conversion factor: 1 mile = 1760 yards.\n2. Perform the calculation: 10 * 1760 = 17600 yards.\n<answer>17600</answer> yards."
   ],
   [
     "Can you provide the conversion value from m/s to ft/s for 6 units?",
     19.685039370078737,
-    "1. Identify the conversion factor: 1 meter/second = 3.28084 feet/second.\n2. Perform the calculation: 6 * 3.28084 = 19.68504.\n<answer>19.68504</answer> feet/second."
+    "1. Identify the conversion factor: 1 meter = 3.28084 feet.\n2. Perform the calculation: 6 * 3.28084 = 19.68504.\n<answer>19.68504</answer> ft/s."
   ],
   [
     "Could you convert 6 GB to its corresponding value in MB?",
     6000.0,
-    "1. Identify the conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> MB."
+    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 6 * 1000 = 6000.\n3. The answer is <answer>6000</answer> MB."
   ],
   [
     "What does 4 mi equal in ft terms?",
     21120.0,
-    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 4 * 5280 = 21120.\n3. <answer>21120</answer> feet."
+    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 4 * 5280 = 21120.\n<answer>21120</answer> feet."
   ],
   [
     "How do we express 5 B in terms of bit?",
     40.0,
-    "1. Identify conversion factors: 1 byte = 8 bits.\n2. Perform the calculation: 5 bytes * 8 bits = 40 bits.\n<answer>40</answer> bits."
+    "1. Identify conversion factor: 1 byte = 8 bits.\n2. Perform the calculation: 5 * 8 = 40.\n<answer>40</answer> bits."
   ],
   [
     "How many m/s are there per 8 ft/s?",
     2.4384,
-    "1. Identify conversion factors: 1 foot = 0.3048 meters; 1 second = 1 second.\n2. Convert distance: 8 feet * 0.3048 = 2.4384 meters.\n3. Divide distance by time: 2.4384 meters / 1 second = 2.4384 m/s.\n<answer>2.4384</answer> m/s."
+    "1. Identify conversion factor: 1 foot = 0.3048 meters.\n2. Convert distance: 8 feet * 0.3048 = 2.4384 meters.\n3. Convert time: 1 second.\n4. Perform the calculation: 2.4384 meters / 1 second = 2.4384 m/s.\n<answer>2.4384</answer> m/s."
   ],
   [
     "What is 1 m/s in mph?",
     2.2369362920544025,
-    "1. Identify the conversion factor: 1 meter per second = 2.23694 miles per hour.\n2. Perform the calculation: 1 * 2.23694 = 2.23694.\n<answer>2.23694</answer> mph."
+    "1. Identify conversion factor: 1 m/s = 2.23694 mph.\n2. Perform the calculation: 1 * 2.23694 = 2.23694.\n<answer>2.23694</answer> mph"
   ],
   [
     "Can you change 9 meter to its equivalent in mm?",
@@ -2257,27 +2587,22 @@
   [
     "Can you change 6 miles to its equivalent in ft?",
     31680.0,
-    "1. Identify conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 6 * 5280 = 31680.\n3. The answer is <answer>31680</answer> feet."
+    "1. Identify the conversion factor: 1 mile = 5280 feet.\n2. Perform the calculation: 6 * 5280 = 31680.\n<answer>31680</answer> feet."
   ],
   [
     "Could you convert 10 km to its corresponding value in meter?",
     10000.0,
-    "1. Identify the conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> meters."
+    "1. Identify conversion factor: 1 kilometer = 1000 meters.\n2. Perform the calculation: 10 * 1000 = 10000.\n<answer>10000</answer> meters."
   ],
   [
     "Can you provide the conversion value from h to second for 2 units?",
     7200.0,
-    "1. Identify the conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
-  ],
-  [
-    "Express 6 mi/h as a quantity of ft/s.",
-    8.799999999999999,
-    "1. Identify conversion factor: 1 mile = 5280 feet; 1 hour = 3600 seconds.\n2. Convert distance: 6 miles * 5280 feet = 31680 feet.\n3. Convert time: 31680 feet / 3600 seconds = 8.8000.\n<answer>8.800</answer> ft/s."
+    "1. Identify conversion factor: 1 hour = 3600 seconds.\n2. Perform the calculation: 2 * 3600 = 7200.\n<answer>7200</answer> seconds."
   ],
   [
     "How do we translate 4 litre into cm**3?",
     3999.9999999999995,
-    "1. Identify the conversion factor: 1 liter = 1000 cm^3.\n2. Perform the calculation: 4 * 1000 = 4000 cm^3.\n<answer>4000</answer> cm^3."
+    "1. Identify conversion factor: 1 liter = 1000 cm<sup>3</sup>.\n2. Perform the calculation: 4 liters * 1000 cm<sup>3</sup> = 4000 cm<sup>3</sup>.\n<answer>4000</answer> cm<sup>3</sup>."
   ],
   [
     "Tell me how many mL are there in 2 litre.",
@@ -2287,7 +2612,7 @@
   [
     "How many mm make up 4 in?",
     101.60000000000001,
-    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 4 * 25.4 = 101.6.\n<answer>101.6</answer> millimeters."
+    "1. Identify the conversion factor: 1 inch = 25.4 mm.\n2. Perform the calculation: 4 * 25.4 = 101.60.\n<answer>101.60</answer> millimeters."
   ],
   [
     "What is the conversion of 3 mi to ft?",
@@ -2297,27 +2622,32 @@
   [
     "Convert the measurement of 5 GB into M.",
     5000.0,
-    "1. Identify conversion factor: 1 GB = 1000 MB.\n2. Perform the calculation: 5 * 1000 = 5000 MB.\n3. The answer is <answer>5000</answer> MB."
+    "1. Identify the conversion factor: 1 GB = 1000 M.\n2. Perform the calculation: 5 * 1000 = 5000.\n<answer>5000</answer> megabytes (Mb)."
   ],
   [
     "How many kg make up 6 tonne?",
     6000.0,
-    "1. Identify the conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 6 * 1000 = 6000.\n<answer>6000</answer> kilograms."
+    "1. Identify conversion factor: 1 tonne = 1000 kilograms.\n2. Perform the calculation: 6 * 1000 = 6000 kg.\n<answer>6000</answer> kilograms."
   ],
   [
     "Can you change 7 in to its equivalent in mm?",
     177.8,
-    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 7 * 25.4 = 177.8.\n<answer>177.8</answer> millimeters."
+    "1. Identify conversion factor: 1 inch = 25.4 millimeters.\n2. Perform the calculation: 7 * 25.4 = 177.8.\n<answer>177.8</answer> mm."
   ],
   [
     "How does 8 meter measure up in terms of cm?",
     800.0,
-    "1. Identify the conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 8 * 100 = 800.\n<answer>800</answer> centimeters."
+    "1. Identify conversion factor: 1 meter = 100 centimeters.\n2. Perform the calculation: 8 meters * 100 = 800 centimeters.\n<answer>800</answer> centimeters."
   ],
   [
     "Convert the measurement of 8 m into mm.",
     8000.0,
-    "1. Identify the conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> mm."
+    "1. Identify conversion factor: 1 meter = 1000 millimeters.\n2. Perform the calculation: 8 * 1000 = 8000.\n<answer>8000</answer> millimeters."
+  ],
+  [
+    "Can you change 8 ft/s to its equivalent in mph?",
+    5.454545454545455,
+    "1. Identify conversion factors: 1 ft/s = 0.681818 mph.\n2. Perform the calculation: 8 * 0.681818 = 5.45454.\n<answer>5.45454</answer> mph."
   ],
   [
     "How many years is 7 century?",
@@ -2325,49 +2655,39 @@
     "1. Identify conversion factor: 1 century = 100 years.\n2. Perform the calculation: 7 * 100 = 700 years.\n<answer>700</answer> years."
   ],
   [
-    "How do we express 9 yd in terms of cm?",
-    822.9600000000002,
-    "1. Identify conversion factor: 1 yard = 91.44 centimeters.\n2. Perform the calculation: 9 * 91.44 = 822.96.\n<answer>822.96</answer> cm."
-  ],
-  [
     "How much is 2 min when converted to sec?",
     120.0,
     "1. Identify conversion factor: 1 minute = 60 seconds.\n2. Perform the calculation: 2 * 60 = 120.\n<answer>120</answer> seconds."
   ],
   [
-    "What is 1 M in KB?",
-    1000.0,
-    "1. Identify the conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 1 * 1000 = 1000.\n<answer>1000</answer> kilobytes."
-  ],
-  [
     "How do we express 2 kmh in terms of mi/h?",
     1.2427423844746681,
-    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert the speed: 2 * 0.621371 = 1.24274 miles per hour.\n<answer>1.24274</answer> mph."
+    "1. Identify conversion factor: 1 kilometer = 0.621371 miles.\n2. Convert the speed: 2 km/h * 0.621371 km/h = 1.242742 mi/h.\n<answer>1.242742</answer> mi/h."
   ],
   [
-    "Please convert 6 days into weeks.",
-    0.8571428571428571,
-    "1. Identify the conversion factor: 1 day = 0.142857 weeks.\n2. Perform the calculation: 6 * 0.142857 = 0.857143.\n<answer>0.857143</answer> weeks."
+    "Convert 7 mi to km?",
+    11.265408,
+    "1. Identify the conversion factor: 1 mile = 1.60934 kilometers.\n2. Perform the calculation: 7 * 1.60934 = 11.2654.\n<answer>11.2654</answer> kilometers."
   ],
   [
     "Can you change 3 h to its equivalent in min?",
     180.0,
-    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 3 * 60 = 180.\n3. The answer is <answer>180</answer> minutes."
+    "1. Identify the conversion factor: 1 hour = 60 minutes.\n2. Perform the calculation: 3 * 60 = 180.\n<answer>180</answer> minutes."
   ],
   [
     "How many ml are there per 4 litre?",
     4000.0000000000005,
-    "1. Identify the conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 4 * 1000 = 4000 milliliters.\n3. The answer is <answer>4000</answer> milliliters."
+    "1. Identify conversion factor: 1 liter = 1000 milliliters.\n2. Perform the calculation: 4 liters * 1000 = 4000 milliliters.\n3. The answer is <answer>4000</answer> milliliters."
   ],
   [
-    "Express 10 m/s as a quantity of mi/h.",
-    22.369362920544024,
-    "1. Identify conversion factor: 1 meter/second = 2.236936 miles/hour.\n2. Perform the calculation: 10 * 2.236936 = 22.36936.\n<answer>22.36936</answer> mph."
+    "How do we translate 9 KB into byte?",
+    9000.0,
+    "1. Identify conversion factor: 1 kilobyte = 1000 bytes.\n2. Perform the calculation: 9 * 1000 = 9000.\n<answer>9000</answer> bytes."
   ],
   [
     "Can you provide the conversion value from ft to in for 6 units?",
     72.0,
-    "1. Identify conversion factor: 1 foot = 12 inches.\n2. Perform the calculation: 6 * 12 = 72.\n<answer>72</answer> inches."
+    "1. Identify the conversion factor: 1 foot = 12 inches.\n2. Perform the calculation: 6 * 12 = 72.\n<answer>72</answer> inches."
   ],
   [
     "How much is 4 min when converted to sec?",
