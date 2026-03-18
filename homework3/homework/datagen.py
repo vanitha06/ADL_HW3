@@ -49,7 +49,7 @@ def generate_dataset(output_json: str, oversample: int = 10, temperature: float 
         # predicted_answer = predicted_answer[q_idx]
             
         for completion in rollouts:
-            if abs(model.parse_answer(completion) - float(gold)) < 1e-5:
+            if abs(model.parse_answer(completion) - float(gold)) < (0.02*gold):
                 rft_dataset.append([question, gold, completion])
                 break
             else:
