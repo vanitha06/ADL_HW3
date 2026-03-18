@@ -107,7 +107,7 @@ class BaseLLM:
         # Preventing OOM
         # Depending on your GPU batched generation will use a lot of memory.
         # If you run out of memory, try to reduce the micro_batch_size.
-        micro_batch_size = 16
+        micro_batch_size = 32
         if len(prompts) > micro_batch_size:
             return [
                 r
@@ -140,7 +140,7 @@ class BaseLLM:
 
         # 6. Decode
         decoded_flat = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
-        print("decoded_flat",decoded_flat)
+        # print("decoded_flat",decoded_flat)
         # 7. Reshape if num_return_sequences > 1
         if num_return_sequences is not None and num_return_sequences > 1:
             return [
