@@ -90,8 +90,8 @@ def train_model(
       # 1. Configure LoRA
       # r=16 with all-linear usually results in ~15MB adapter size
   config = LoraConfig(
-          r=10, 
-          lora_alpha=40, # 4x rank as recommended
+          r=8, 
+          lora_alpha=32, # 4x rank as recommended
           target_modules="all-linear", 
           bias="none", 
           task_type="CAUSAL_LM"
