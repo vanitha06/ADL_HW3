@@ -110,7 +110,7 @@ def train_model(
           report_to="tensorboard",
           num_train_epochs=10,
           per_device_train_batch_size=200,
-          learning_rate=2e-4,
+          learning_rate=3e-4,
           gradient_checkpointing=True,
           logging_steps=10,
           save_strategy="epoch",
