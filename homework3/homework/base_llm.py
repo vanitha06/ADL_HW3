@@ -107,7 +107,7 @@ class BaseLLM:
         # Preventing OOM
         # Depending on your GPU batched generation will use a lot of memory.
         # If you run out of memory, try to reduce the micro_batch_size.
-        micro_batch_size = 64
+        micro_batch_size = 32
         if len(prompts) > micro_batch_size:
             return [
                 r
@@ -125,7 +125,7 @@ class BaseLLM:
         outputs = self.model.generate(
             input_ids=inputs["input_ids"],
             attention_mask=inputs["attention_mask"],
-            max_new_tokens=600,
+            max_new_tokens=100,
             do_sample=do_sample,
             temperature=temperature if do_sample else None,
             num_return_sequences=actual_num_seq,
@@ -167,6 +167,7 @@ def test_model():
     # In my case it talks about cats eating cats, and dogs being happy.
     testset = ["The cat went up", "The dog went down"]
     model = BaseLLM()
+    torch.no_grad()
     for t in testset:
         # print("testing generate function")
         # print("input", t)
